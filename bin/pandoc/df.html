@@ -1,0 +1,299 @@
+<h1 id="cato-generic-issues-for-tech-projects">Cato Generic Issues for Tech Projects</h1>
+<h2 id="situation-vor-dem-projekt">Situation vor dem Projekt</h2>
+<h3 id="business">Business</h3>
+<p>Cato soll die elektronische Verordnung in der Chemotherapie ermöglichen. Bis anhin verwenden die unterschiedlichen Anwender von Chemotherapie verschiedene Methoden.</p>
+<p>Die betroffenen Abteilungen sind:</p>
+<ul>
+<li>Medizinische Onkologie Luzern</li>
+<li>Medizinische Onkologie Sursee</li>
+<li>Hämatologie Luzern</li>
+<li>Kinderspital</li>
+</ul>
+<p>Weitere sind im Moment nicht bekannt.</p>
+<h4 id="prozesse">Prozesse</h4>
+<h5 id="medizinische-onkologie">Medizinische Onkologie</h5>
+<ul>
+<li>Stationär: Verordnung wird im Daktari gemacht, ausgedruckt und an die Apotheke gefaxt.</li>
+<li>Ambulant: Verordnung von Hand. Daktari wird als Dosisrechner benötigt und der Pflege ausgehändigt.</li>
+</ul>
+<p>Produktion: Wird in der Apotheke gemacht.</p>
+<h5 id="sursee">Sursee</h5>
+<h5 id="kinderspital">Kinderspital</h5>
+<p>Schemata und</p>
+<h4 id="leistungen-am-kunden">Leistungen am Kunden</h4>
+<h4 id="menschen">Menschen</h4>
+<h5 id="kunden">Kunden</h5>
+<h5 id="verantwotungen">Verantwotungen</h5>
+<h5 id="user">User</h5>
+<h5 id="stakeholder">&quot;Stakeholder&quot;</h5>
+<h3 id="it-betrieb">IT Betrieb</h3>
+<h4 id="technik">Technik</h4>
+<h4 id="systeme">Systeme</h4>
+<h5 id="datenschnittstellen">DatenSchnittstellen</h5>
+<h5 id="datenmodelle">Datenmodelle</h5>
+<h4 id="userrollenfuntionen">User/Rollen/Funtionen</h4>
+<h2 id="projektbeschrieb">Projektbeschrieb</h2>
+<h3 id="formale-dokumente">Formale Dokumente</h3>
+<h4 id="elevator-speech">Elevator Speech</h4>
+<h4 id="projektantrag">Projektantrag</h4>
+<h4 id="projektcharter">Projektcharter</h4>
+<h3 id="upfront-thinking-re">Upfront Thinking (RE)</h3>
+<h3 id="stakeholder-rasci-im-projekt">Stakeholder (RASCI) im Projekt</h3>
+<h2 id="stakeholder-bestimmen-verantwortlichkeiten-klären-rasci">Stakeholder bestimmen, Verantwortlichkeiten klären # RASCI</h2>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Function</th>
+<th align="left">Clinic / Department</th>
+<th align="left">Person</th>
+<th align="left">R</th>
+<th align="left">A</th>
+<th align="left">S</th>
+<th align="left">C</th>
+<th align="left">I</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Management</td>
+<td align="left">MedOnk</td>
+<td align="left">Prof. Aebi</td>
+<td align="left"></td>
+<td align="left">X</td>
+<td align="left"></td>
+<td align="left">X</td>
+<td align="left"></td>
+</tr>
+<tr class="even">
+<td align="left">Doctors</td>
+<td align="left">MedOnk</td>
+<td align="left">Dr. Oliver Gautschi*</td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left">X</td>
+<td align="left"></td>
+</tr>
+<tr class="odd">
+<td align="left">Doctors</td>
+<td align="left">MedOnk</td>
+<td align="left">Dr. Ralph Winterhalder?</td>
+<td align="left">X</td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr class="even">
+<td align="left">Nurse</td>
+<td align="left">MedOnk</td>
+<td align="left">Alexandra Käch*</td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr class="odd">
+<td align="left">Office</td>
+<td align="left">MedOnk</td>
+<td align="left">Sandra Rösli*</td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr class="even">
+<td align="left">Management</td>
+<td align="left">Haemat</td>
+<td align="left">Prof. W. Wuillemin</td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left">X</td>
+</tr>
+<tr class="odd">
+<td align="left">Doctors</td>
+<td align="left">Haemat</td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr class="even">
+<td align="left">Nurse</td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr class="odd">
+<td align="left">Office</td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr class="even">
+<td align="left">ProductionManager</td>
+<td align="left">Pharmacy</td>
+<td align="left">Michael Kaiser</td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left">X</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr class="odd">
+<td align="left">Doctor</td>
+<td align="left">Kispi</td>
+<td align="left">Dr. Karin Hartmann</td>
+<td align="left">X</td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr class="even">
+<td align="left">Nurse</td>
+<td align="left">Kispi</td>
+<td align="left">Necessary?</td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr class="odd">
+<td align="left">?</td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr class="even">
+<td align="left">Management</td>
+<td align="left">Pharmacy</td>
+<td align="left">Dr. Katharina Bracher</td>
+<td align="left"></td>
+<td align="left">X</td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr class="odd">
+<td align="left">Management</td>
+<td align="left">IT</td>
+<td align="left">Dr. Stefan Hunziker</td>
+<td align="left"></td>
+<td align="left">X</td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr class="even">
+<td align="left">ApplicationManager</td>
+<td align="left">IT</td>
+<td align="left">Thomas Hottinger</td>
+<td align="left"></td>
+<td align="left">X</td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr class="odd">
+<td align="left">Project Support</td>
+<td align="left">IT</td>
+<td align="left">Daniel Käch</td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left">X</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+</tbody>
+</table>
+<p>[Confluence Bereich der Medizinischen Onkologie]</p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">RASCI Legend</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">R</td>
+<td align="left">Responsible</td>
+<td align="left">who is responsible for carrying out the entrusted task?</td>
+</tr>
+<tr class="even">
+<td align="left">A</td>
+<td align="left">Accountable / Approver</td>
+<td align="left">who is responsible for the whole task and who is responsible for what has been done?</td>
+</tr>
+<tr class="odd">
+<td align="left">S</td>
+<td align="left">Support</td>
+<td align="left">who provides support during the implementation of the activity / process / service?</td>
+</tr>
+<tr class="even">
+<td align="left">C</td>
+<td align="left">Consulted</td>
+<td align="left">who can provide valuable advice or consultation for the task?</td>
+</tr>
+<tr class="odd">
+<td align="left">I</td>
+<td align="left">Informed</td>
+<td align="left">who should be informed about the task progress or the decisions in the task?</td>
+</tr>
+</tbody>
+</table>
+<h3 id="finanzen">Finanzen</h3>
+<h3 id="controllingsetup">Controllingsetup</h3>
+<h2 id="procedere">Procedere</h2>
+<h3 id="datenmigration-von-altsystem">Datenmigration von Altsystem</h3>
+<h3 id="userschulung">Userschulung</h3>
+<h3 id="abnahme">Abnahme</h3>
+<h3 id="systemtechnischer-setup">Systemtechnischer Setup</h3>
+<h4 id="server">Server</h4>
+<h4 id="clientinstallation">Clientinstallation</h4>
+<h4 id="switch">Switch</h4>
+<h3 id="switchover">Switchover</h3>
+<h4 id="schnittstellen">Schnittstellen</h4>
+<h4 id="clients">Clients</h4>
+<h2 id="design-neue-lösung">Design / neue Lösung</h2>
+<h3 id="daten">Daten</h3>
+<h4 id="datenschnittstellen-1">Datenschnittstellen</h4>
+<h3 id="physik">Physik</h3>
+<h4 id="clientlösung">Clientlösung</h4>
+<h5 id="ops">OPS</h5>
+<h6 id="update-procedere">Update Procedere</h6>
+<h4 id="server-1">Server</h4>
+<h5 id="ops-1">OPS</h5>
+<h6 id="update-procedere-1">Update Procedere</h6>
+<h3 id="it-prozesse">IT Prozesse</h3>
+<h4 id="supportprozess">Supportprozess</h4>
+<h3 id="business-1">Business</h3>
+<h4 id="prozesse-1">Prozesse</h4>
+<h5 id="prozessschnittstellen">Prozessschnittstellen</h5>
+<h4 id="menschen-1">Menschen</h4>
+<h5 id="stakeholder-1">Stakeholder</h5>
+<h6 id="rasci">RASCI</h6>
+<h3 id="betriebskonzept">Betriebskonzept</h3>
+<h4 id="userrollenfunktionen">User/Rollen/Funktionen</h4>
+<h4 id="schulung">Schulung</h4>
+<h4 id="support">Support</h4>
+<h4 id="entscheidungsgewalt">Entscheidungsgewalt</h4>

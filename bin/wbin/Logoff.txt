@@ -1,0 +1,42 @@
+                          Logoff version 1.0
+                           March 27th, 1998
+
+			    by Steve Kemp
+
+                    e-mail: skx@tardis.ed.ac.uk
+                  http://www.tardis.ed.ac.uk/~skx/
+
+
+1. ABOUT
+========
+  Logoff is a simple program designed to log you off your current session
+ of Windows 95 / Windows NT.
+  Its main motivation is for those people that log on and off from their
+ machines a lot (esp. under Windows NT), to change permissions.
+  I believe that this is a worthwhile program because I use it myself - I
+ like using the console for a lot of my work.  It seems more natural to me
+ than having to use the menus.
+
+2. USAGE
+========
+  Simply run "logoff" and a dialog will pop-up asking for confirmation.
+  If you select yes you will be logged off, otherwise you won't.
+  Alternatively you may type "logoff /q" and you will be logged off without
+ the need for confirmation.  Ideal for a timed logoff, or a shortcut.
+
+
+3. ABOUT
+========
+  Logoff was written, and compiled under Visual C+ v4.  Its source code
+ is included, should you be interested in how the program works, or if
+ you would like to improve / modify the app.
+  If you like the program please send me an email...  After all I'm not
+ asking for money, and I currently have a job!
+
+--------------------------------------------------------------------------
+
+Logoff is distributed under the GNU public license, and may be freely
+distributed / modified as long as this information is distributed
+unchanged.
+
+

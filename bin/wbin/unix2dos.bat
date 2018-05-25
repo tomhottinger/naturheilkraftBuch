@@ -1,0 +1,1 @@
+perl -p -e "s/\n/\r\n/;"::perl -p -e 's/\r$//'  %1% 
