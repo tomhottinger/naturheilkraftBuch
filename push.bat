@@ -6,5 +6,5 @@ set GIT_SSL_NO_VERIFY=true
 @echo on
 git add . 
 git commit
-git push origin master
+git push --all origin master
 pause
