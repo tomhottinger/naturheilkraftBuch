@@ -1,4 +1,4 @@
-# Einleitung
+## Einleitung
 
 Als Naturheilpraktiker werde ich von meinen Patienten oft gefragt, warum wir Menschen eigentlich krank werden. Das ist eine gute Frage, denn für jeden einzelnen von uns ist Krankheit oft eine existenzielle Erfahrung, die unser Weltbild und unser Selbstverständnis erschüttern kann. 
 

@@ -1,40 +1,27 @@
-# Einige Dinge im Voraus
+
+## Wie die Uebungen 
 
 
-## Disziplin, Komfortzone und Gewohnheit
-Unsere Leben ist viel mehr von Gewohnheit bestimmt als wir denken. Und es ist uns ja auch weitgehend wohl dabei. Wir putzen unsere Zähne jeden abend ohne uns jedes mal bewusst dafür zu entscheiden. Wir tun es einfach, weil uns das vermutlich als Kind beigebracht wurde. Das gilt aber für viele andere Dinge auch. Wenn wir 2 Stockwerke nach oben müssen entscheidet unsere Gewohnheit darüber, ob wir die Lift benutzen oder die Treppe nehmen. Wenn wir nachts aufwachen entscheidet meistens die Gewohnheit darüber, ob wir uns darüber aufregen und erst recht nicht mehr schlafen können oder ob wir uns einfach hinlegen und weiterschlafen. 
+Wir alle haben schon oft gehört, dass Sport treiben gesund ist. Und wir alle wissen auch, dass uns die Lust am Sport ziemlich schnell vergeht, wenn wir das erste mal überfordert sind. 
 
-Eine Veränderung in unserem Leben hat viel mit der Bildung von neuen Gewohnheiten zu tun. Deshalb möchte ich hier einige Worte verlieren. 
+Natürlich, Sport ist gesund, denn unsere Körper sind zum Bewegen gemacht. Der Nutzen für die Gesundheit ist aber ziemlich schnell hinfällig, wenn wir übertreiben. Er ist ebenfalls hinfällig, wenn wir zwar gerne Sport treiben würden, dies aber nie tun, weil wir keine Zeit haben oder das Abo im Fitnessclub nur zur Beruhigung des Gewissens gekauft haben.
 
-***Kurzabriss MiniHabits***
+## Warum ist Sport gesund?
+Sport fordert uns auf vielfältige Weise. Nebst den offensichtlichen Dingen wir Muskulatur und Kreislauf werden auch die Nerven und der Espirt gefordert. Es tut gut, diese Systeme zu benutzen und sie zu fordern solange wir sie nicht überfordern. 
 
-## Achtsamkeit
-In Europa hat sich in den letzten Jahren ein richtiger Hype um Achtsamkeit entwickelt. Die Entwicklung ist sehr zu begrüssen. Achtsamkeit nicht ausschliesslich eine Bhuddstische Sache. Auch im Europäischen Kulturraum waren Achtsamkeit und Meditation bis vor der Neuzeit verbreitet. Sobald aber die Wissenschaft wichtiger als das Persönliche Erleben gewertet wurde, wurden diese Tugenden mehrheitlich aufgegeben. Wir können dankbar sein, dass wir diese Werte und Techniken aus dem Osten wieder neu integrieren können. Die wissenschaftlichen Grundlagen sind ja mitterweile gegeben um sicher zu sein, dass Achtsamkeit einer der wichtigsten Softfaktoren ist. 
-
-### Was ist nun Achtsamkeit?
-Achtsamkeit zu Beschreiben ist etwa so, wie die einen Zähne zu kauen. Es ist fast nicht möglich. Wir können Achsamkeit aber sehr einfach erleben. Eine Übung findet sich im Meditationsteil des Buches.
-
-Achtsamkeit ist eine Form der Aufmerksamkeit. Sie ist absichtsvoll, auf den gegenwärtigen Moment bezogen und nicht wertend. Das braucht eine Menge Geduld und Akzeptanz. 
-
-Es ist jedoch wertvoll, diese Qualitäten zu Entwickeln. Sie erleichtern uns den Alltag und machen es gelegentlich möglich, Dinge zu tun, die wir anders nicht tun würden. Im nächsten Kapitel ist ein Beispiel wir Achtsamkeit auch eingesetzt werden kann um mit der eigenen Angst umzugehen. 
-
-*** Die 5 Säulen der Achtsamkeit ***
-
-## Angst und der Umgang damit
-
-Wir alle haben 
-*** The mindful approach to fear ***
+## Weitere Faktoren, die der Gesundheit zuträglich sind. 
+Das gleiche gilt aber auch für eine Reihe weiterer Systeme. Da ist zum Beispiel die Verdauung, unser Gefässystem, unsere Nerven und verschiedene Systeme innerhalb der Psyche. Weiterhin ist unser endokrines System (der Hormonhaushalt) ebenfalls für die Gesundheit von grosser Wichtigkeit. All diese Systeme wollen benutzt und gefordert sein, sonst verkümmern sie. Wenn wir diese Systeme zuwenig benutzen kommt es zu energetischen Blockaden. Genauso wie unser Körper langsam träge wird, wenn wir ihn zuwenig bewegen.  
 
 
-# Übersicht über die Übungen
+## Der Menschliche Körper als vernetztes System. 
+Es ist beinahe unmöglich, 
 
-1. Naturbezug und Erdung
-1. Meditation
-1. Sich der Kälte aussetzten
-1. Sich der Wärme aussetzten
-1. Moderate Bewegung 1: Wandern
-1. Moderate Bewegung 2: Hatha Yoga
-1. Ernährung
-1. Atmung
+Ursprünglich wollte ich eine Liste aller relevanten Systeme erstellen und diese mit den übungen in eine Tabelle bringen. Doch es hat sich Herkulesaufgabe herausgestellt. Diese Systeme sind derart verzahnt, dass eine Auftrennung meistens keinen Sinn macht. Zudem wirkt eine Uebung immer auf mehr als ein System. Damit werde ich bei den einzelnen Uebungen gelegentlich einige Worte verlieren. 
 
+Die 
+
+
+Wo immer möglich solltest Du Dich langsam an die Übungen herantasten und die Wirkung auf den Körper und den Geist gut beobachten. Nur Du selber kannst bestimmen inwieweit eine Übung für Dich Sinn macht und wie intensi und wie oft Du sie durchführen sollst. Grundsätzlich gilt dass es meist einige Zeit braucht, bis die Wirkung spürbar eintritt. Deshalb ist konstant und die Bereitschaft, es auch zu tun, wenn der Erfolg nicht sofort spührbar ist, wichtig. 
+
+Viel Spass damit!
 
