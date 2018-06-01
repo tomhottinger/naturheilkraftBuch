@@ -7,3 +7,4 @@ set GIT_SSL_NO_VERIFY=true
 git add . 
 git commit
 git push origin master
+pause
