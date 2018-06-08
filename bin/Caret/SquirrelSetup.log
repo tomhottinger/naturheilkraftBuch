@@ -1,0 +1,10 @@
+﻿2018-06-05 15:50:42> Program: Starting Squirrel Updater: --createShortcut=Caret.exe
+2018-06-05 15:50:42> ApplyReleasesImpl: About to create shortcuts for Caret.exe, rootAppDir C:\Users\hottinth\AppData\Local\Caret
+2018-06-05 15:50:42> ApplyReleasesImpl: Creating shortcut for Caret.exe => C:\Users\hottinth\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Caret.io\Caret.lnk
+2018-06-05 15:50:43> ApplyReleasesImpl: About to save shortcut: C:\Users\hottinth\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Caret.io\Caret.lnk (target C:\Users\hottinth\AppData\Local\Caret\Caret.exe, workingDir C:\Users\hottinth\AppData\Local\Caret\app-3.4.6, args , toastActivatorCSLID 34a820d5-bb7c-59af-a821-92e45c80fe61)
+2018-06-05 15:50:43> ApplyReleasesImpl: Creating shortcut for Caret.exe => C:\Users\hottinth\Desktop\Caret.lnk
+2018-06-05 15:50:43> ApplyReleasesImpl: About to save shortcut: C:\Users\hottinth\Desktop\Caret.lnk (target C:\Users\hottinth\AppData\Local\Caret\Caret.exe, workingDir C:\Users\hottinth\AppData\Local\Caret\app-3.4.6, args , toastActivatorCSLID 34a820d5-bb7c-59af-a821-92e45c80fe61)
+2018-06-05 15:50:43> ApplyReleasesImpl: Examining Pin: Google Chrome.lnk
+2018-06-05 15:50:43> ApplyReleasesImpl: Examining Pin: Internet Explorer.lnk
+2018-06-05 15:50:43> ApplyReleasesImpl: Examining Pin: MS Excel 2010.lnk
+2018-06-05 15:50:43> ApplyReleasesImpl: Examining Pin: MS Word 2010.lnk
