@@ -1,10 +1,14 @@
-## Einleitung
+# Einleitung
 
-Als Naturheilpraktiker werde ich von meinen Patienten oft gefragt, warum wir Menschen eigentlich krank werden. Das ist eine gute Frage, denn für jeden einzelnen von uns ist Krankheit oft eine existenzielle Erfahrung, die unser Weltbild und unser Selbstverständnis erschüttern kann. 
+Als Naturheilpraktiker werde ich von meinen Patienten oft gefragt, warum wir Menschen eigentlich krank werden. Eine Frage, auf die ich keine ehrliche Antwort habe. Die esoterische Literatur ist voll von Erklärungen, die aber eher ein Weltbild beschreiben als wirklich eine reflektierte Antwort geben. 
 
-Nun, Krankheit gehört zum Leben. Sie hat für die Menschheit als gesamtes eine wichige Funktion. Doch das ist eigentich kaum ein Trost und hilft uns auch nicht weiter, wenn wir für unsere Gesundheit etwas tun wollen oder müssen. 
+Die Frage ist gut. Für viele von uns ist Krankheit eine einschneidende Erfahrung wenn es sich nicht gerade um eine Grippe handelt. Krankheit ist für uns ein erzwungener  ausbruch aus der Normalität und führt uns immer wieder vor Augen, dass viele Dinge din unserem Leben nicht selbstverständlich sind. 
 
-In diesem Buch geht es darum, was wir als Individuen dazu beitragen können um uns besser anzupassen. Wenn Du als Leser Wunder erwartest, dann wirst Du enttäuscht sein. Wunder sind im Feld der Gesundheit immer wieder in Form von Spontanheilungen anzutreffen. Im Grunde ist jede Heilung ein kleines Wunder, denn Heilung im alltäglichen Sinn ist nicht selbstverständlich. Auch als Heilkundiger kann man nicht einfach jemand heilen. Mann kann höchstens die Voraussetzungen für eine Heilung verbessern oder sie erst dadurch ermöglichen. Doch der wiederherstellungsprozess ist weitgehend etwas, das von selber passiert und höchstens unterstützt oder begleitet werden kann. 
+Auch wenn ich keine Antwort auf diese Frage habe, dann denke ich, dass Krankheit zum Leben gehört. Sie hat für die Menschheit als Gesamtes eine wichige Funktion. 
+Das ist für jemand, der Trost sucht aber keine nützliche Antwort.  Es ist auch keine Antwort, wenn wir uns irgendwie darüber Gedanken machen, was wir für unsere Gesundheit tun können. Egal ob wir bereits Krank sind oder es nicht werden wollen.
+ 
+
+In diesem Buch geht es darum, was wir als Individuen dazu beitragen können um uns besser anzupassen. Wenn Du als Leser Wunder erwartest, dann wirst Du enttäuscht sein. Wunder sind im Feld der Gesundheit immer wieder in Form von Spontanheilungen anzutreffen. Im Grunde ist jede Heilung ein kleines Wunder, denn Heilung im alltäglichen Sinn ist nicht selbstverständlich. Auch ein Heilkundiger kann nicht einfach jemanden heilen. Er kann höchstens die Voraussetzungen für eine Heilung verbessern oder sie erst dadurch ermöglichen. Doch der Wiederherstellungsprozess ist weitgehend etwas, das von selber passiert und höchstens unterstützt, begleitet und geführt werden kann. 
 
 Das sollte uns bescheiden und dankbar stimmen.  
 
@@ -12,6 +16,7 @@ Wunder und Heilung sind nicht Thema dieses Buches. Es geht viel mehr um Prävent
 
 Es sind hier einfache Dinge aufgeführt, die eigentlich jeder machen kann. Du findest kein  "Programm" oder keine "Methode" wie dies in der Regel in der Selbsthilfeliteratur zu finden ist. Du findest einfach einige "Werkzeuge", die Du benutzen kannst um Gesund zu bleiben. Wenn Du krank bist, dann können diese Werkzeuge einen Betrag an Dein Wohlbefinden und an die Genesung leisten. Aber letzendlich musst Du selber entscheiden, ob Du diese Werkzeuge benutzen willst oder nicht. 
 
+>Wenn Du Krank bist dann solltet Du alles, was Du tust mit Deinem Behandler (Arzt oder Heilpraktiker) absprechen.  Ich habe mich zwar bemüht, die Uebungen so auszugestalten, dass Sie gefahrlos gemacht werden können. Es ist jedoch nicht möglich, alle Uebungen für sämt.
 
 Dein Tom 
 

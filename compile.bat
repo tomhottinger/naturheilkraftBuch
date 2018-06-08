@@ -17,6 +17,6 @@ cd build
  rem ..\bin\kindlegen\kindlegen.exe book.epub
 cd ..
  rem explorer build\book.epub
-ebook-viewer.exe build\book.epub
+rem ebook-viewer.exe build\book.epub
    rem explorer build\booka2.epub
  pause
