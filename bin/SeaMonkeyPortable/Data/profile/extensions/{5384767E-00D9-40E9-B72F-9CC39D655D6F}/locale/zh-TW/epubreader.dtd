@@ -1,0 +1,73 @@
+<!ENTITY overlay.menu.epub_catalog "ePub書檔清單">
+
+<!ENTITY pref.title "EPUBReader 偏好設定">
+
+<!ENTITY pref.tab.content "內容">
+<!ENTITY pref.tab.content.defined_book "依書檔設定">
+<!ENTITY pref.tab.content.defined_user "依使用者自訂">
+<!ENTITY pref.tab.content.color.background "背景顏色">
+<!ENTITY pref.tab.content.family.font "字型名稱">
+<!ENTITY pref.tab.content.size.font "字型點數">
+<!ENTITY pref.tab.content.color.font "字型顏色">
+<!ENTITY pref.tab.content.margin "邊框留白">
+
+<!ENTITY pref.tab.toc "目錄">
+<!ENTITY pref.tab.toc.bg "依使用者自訂">
+<!ENTITY pref.tab.toc.link_unvisited "未點選的連結">
+<!ENTITY pref.tab.toc.link_visited "已點選的連結">
+<!ENTITY pref.tab.toc.link_hover "游標停駐">
+<!ENTITY pref.tab.toc.font_family "字型名稱">
+<!ENTITY pref.tab.toc.font_size "字型點數">
+<!ENTITY pref.tab.toc.preview "預覽">
+<!ENTITY pref.tab.toc.preview.unvisited "未點選的連結">
+<!ENTITY pref.tab.toc.preview.visited "已點選的連結">
+<!ENTITY pref.tab.toc.reset_default "回復預設值">
+
+<!ENTITY pref.tab.misc "其他">
+<!ENTITY pref.tab.misc.calibre_url "Calibre OPDS Url">
+
+<!ENTITY pref.ok "確定">
+<!ENTITY pref.ok_access "O">
+<!ENTITY pref.cancel "取消">
+<!ENTITY pref.cancel_access "C">
+
+<!ENTITY reader.preferences "偏好設定">
+<!ENTITY reader.help "線上說明">
+<!ENTITY reader.catalog "ePub書檔清單/C">
+<!ENTITY reader.save "儲存複本/S">
+<!ENTITY reader.bookmark "插入書籤/D">
+<!ENTITY reader.font_smaller "縮小字型/-">
+<!ENTITY reader.font_larger "放大字型/+">
+
+<!ENTITY pref.tab.misc.js_enabled "Javascript 啟用">
+<!ENTITY reader.nav_backwards "前一章節">
+<!ENTITY reader.nav_forwards "下一章節">
+<!ENTITY reader.toolbar_locked "持續顯示工具列">
+<!ENTITY reader.keyboard_shortcuts "線上說明快捷鍵">
+
+<!ENTITY pref.tab.content.column.min_width "最小寬度">
+<!ENTITY pref.tab.misc.plugins_enabled "Plugins 啟用">
+
+<!ENTITY pref.tab.content.style "閱讀方式">
+<!ENTITY pref.tab.content.style.book "書籍 (逐頁 &#8592;&#8594; / &#8805; 1 逐欄)">
+<!ENTITY pref.tab.content.style.website "網站 (逐頁 &#8593;&#8595; / 1 逐欄)">
+<!ENTITY pref.tab.content.column "欄數">
+<!ENTITY pref.tab.content.column.single "單欄">
+<!ENTITY pref.tab.content.column.auto "自動">
+<!ENTITY pref.tab.content.paging "逐頁">
+<!ENTITY pref.tab.content.paging.vertical "直式">
+<!ENTITY pref.tab.content.paging.horizontal "橫式">
+<!ENTITY reader.nav_page_backwards "前一頁/&lt;-">
+<!ENTITY reader.nav_page_forwards "下一頁/-&gt;">
+<!ENTITY reader.reading_style "改變閱讀模式">
+
+
+<!ENTITY pref.tab.misc.paging_click_enabled "點擊滑鼠翻頁">
+<!ENTITY pref.tab.content.default "預設值">
+<!ENTITY pref.tab.content.line_height "行高">
+<!ENTITY catalog.add_tag "新增">
+<!ENTITY catalog.rename_tag "更改名稱">
+<!ENTITY catalog.delete_tag "刪除">
+<!ENTITY tag.name "標籤">
+<!ENTITY book_tag.tagging "標籤中">
+

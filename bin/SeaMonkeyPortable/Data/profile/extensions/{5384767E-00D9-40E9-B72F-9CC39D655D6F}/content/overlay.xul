@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<!DOCTYPE window SYSTEM "chrome://epubreader/locale/epubreader.dtd">
+
+<overlay id="epubReaderOverlay" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+<script type="application/x-javascript" src="chrome://epubreader/content/overlay.js"></script>
+<stringbundleset>
+   <stringbundle id="epubreader_properties" src="chrome://epubreader/locale/epubreader.properties" />
+</stringbundleset>
+<menupopup id="menu_ToolsPopup">
+   <menuitem label="&overlay.menu.epub_catalog;" class="menuitem-iconic" image="chrome://epubreader/skin/logo_menu.png" insertafter="devToolsSeparator" oncommand="epubOverlay.loadPage('catalog');"/>
+</menupopup>
+<toolbarpalette id="BrowserToolbarPalette">
+   <toolbarbutton id="epubreader-catalog-button" class="toolbarbutton-1" label="EPUBReader" tooltiptext="&overlay.menu.epub_catalog;" image="chrome://epubreader/skin/logo_menu.png" oncommand="epubOverlay.loadPage('catalog');" />
+</toolbarpalette>
+<nav-bar>
+   <panel id="epubreader-button-notification" noautohide="true" style="background-color:hsla(190,60%,70%,1);">
+      <vbox>
+         <box><spacer flex="1" /><image src="chrome://epubreader/skin/close_notification.png" style="padding-top:3px; padding-right:2px;" onclick="epubOverlay.closeNotification();" onmouseover="this.style.cursor='pointer';" /></box>
+         <description style="padding:1px 3px 3px 3px;">&overlay.menu.epub_catalog;</description>
+      </vbox>
+   </panel>
+</nav-bar>
+</overlay>

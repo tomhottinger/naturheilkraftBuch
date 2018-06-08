@@ -1,0 +1,72 @@
+<!ENTITY overlay.menu.epub_catalog "ePub Katalog">
+
+<!ENTITY pref.title "EPUBReader Indstillinger">
+
+<!ENTITY pref.tab.content "Indhold">
+<!ENTITY pref.tab.content.defined_book "Som defineret i bogen">
+<!ENTITY pref.tab.content.defined_user "Brugerdefineret">
+<!ENTITY pref.tab.content.color.background "Baggrundsfarve">
+<!ENTITY pref.tab.content.family.font "Skriftfamilie">
+<!ENTITY pref.tab.content.size.font "Skriftstørrelse">
+<!ENTITY pref.tab.content.color.font "Skriftfarve">
+<!ENTITY pref.tab.content.margin "Margin">
+
+<!ENTITY pref.tab.toc "Indholdsfortegnelse">
+<!ENTITY pref.tab.toc.bg "Baggrundsfarve">
+<!ENTITY pref.tab.toc.link_unvisited "Ikke besøgt link">
+<!ENTITY pref.tab.toc.link_visited "Besøgt link">
+<!ENTITY pref.tab.toc.link_hover "Markør over link">
+<!ENTITY pref.tab.toc.font_family "Skriftfamilie">
+<!ENTITY pref.tab.toc.font_size "Skriftstørrelse">
+<!ENTITY pref.tab.toc.preview "Forhåndsgranskning">
+<!ENTITY pref.tab.toc.preview.unvisited "Ej besøgt">
+<!ENTITY pref.tab.toc.preview.visited "Besøgt">
+<!ENTITY pref.tab.toc.reset_default "Nulstil">
+
+<!ENTITY pref.tab.misc "Diverse">
+<!ENTITY pref.tab.misc.calibre_url "Calibre OPDS Url">
+
+<!ENTITY pref.ok "Ok">
+<!ENTITY pref.ok_access "O">
+<!ENTITY pref.cancel "Annuller">
+<!ENTITY pref.cancel_access "A">
+
+<!ENTITY reader.preferences "Indstillinger">
+<!ENTITY reader.help "Hjælp">
+<!ENTITY reader.catalog "ePub Katalog/K">
+<!ENTITY reader.save "Gem kopi/S">
+<!ENTITY reader.bookmark "Tilføj bogmærke/D">
+<!ENTITY reader.font_smaller "Formindsk skriftstørrelse/-">
+<!ENTITY reader.font_larger "Forøg skriftstørrelse/+">
+
+<!ENTITY pref.tab.misc.js_enabled "Javascript aktiveret">
+<!ENTITY reader.nav_backwards "Forrige kapitel">
+<!ENTITY reader.nav_forwards "Næste kapitel">
+<!ENTITY reader.toolbar_locked "Altid vis værktøjslinje">
+<!ENTITY reader.keyboard_shortcuts "Tastaturgenveje hjælp">
+
+<!ENTITY pref.tab.content.column.min_width "Minimumsbredde">
+<!ENTITY pref.tab.misc.plugins_enabled "Plugins aktiveret">
+
+<!ENTITY pref.tab.content.style "Læsestil">
+<!ENTITY pref.tab.content.style.book "Bog (Sideskift &#8592;&#8594; / &#8805; 1 Kolonne)">
+<!ENTITY pref.tab.content.style.website "Hjemmeside (Sideskift &#8593;&#8595; / 1 Kolonne)">
+<!ENTITY pref.tab.content.column "Kolonneantal">
+<!ENTITY pref.tab.content.column.single "En kolonne">
+<!ENTITY pref.tab.content.column.auto "Automatisk">
+<!ENTITY pref.tab.content.paging "Sideskift">
+<!ENTITY pref.tab.content.paging.vertical "Vertikalt">
+<!ENTITY pref.tab.content.paging.horizontal "Horizontalt">
+<!ENTITY reader.nav_page_backwards "Forrige side/&lt;-">
+<!ENTITY reader.nav_page_forwards "Næste side/-&gt;">
+<!ENTITY reader.reading_style "Ændr læsestil">
+
+
+<!ENTITY pref.tab.misc.paging_click_enabled "Side pr. klik">
+<!ENTITY pref.tab.content.default "Standard">
+<!ENTITY pref.tab.content.line_height "Linjehøjde">
+<!ENTITY catalog.add_tag "Tilføj">
+<!ENTITY catalog.rename_tag "Omdøb">
+<!ENTITY catalog.delete_tag "Slet">
+<!ENTITY tag.name "Mærke">
+<!ENTITY book_tag.tagging "Markering">

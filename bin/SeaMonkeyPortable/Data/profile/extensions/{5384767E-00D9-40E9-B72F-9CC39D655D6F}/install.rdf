@@ -1,0 +1,82 @@
+<?xml version="1.0"?>
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+
+<Description about="urn:mozilla:install-manifest">
+   <em:id>{5384767E-00D9-40E9-B72F-9CC39D655D6F}</em:id>
+   <em:version>1.5.0.12</em:version>
+   <em:unpack>true</em:unpack>
+   <em:multiprocessCompatible>true</em:multiprocessCompatible>
+   <em:type>2</em:type>
+
+   <em:name>EPUBReader</em:name>
+   <em:description>Read EPUB files just in the browser. No installation of additional software needed.</em:description>
+   <em:creator>Michael Volz</em:creator>
+   <em:contributor>Andy Schindler</em:contributor>
+   <em:translator>Esteve Llorens (Catalan)</em:translator>
+   <em:translator>Eric Liao (Chinese)</em:translator>
+   <em:translator>Brian Schau (Danish)</em:translator>
+   <em:translator>Paul Siegmann (Dutch)</em:translator>
+   <em:translator>Paul Peeraerts (Esperanto)</em:translator>
+   <em:translator>Jussi Träskilä (Finnish)</em:translator>
+   <em:translator>David Pierron (French)</em:translator>
+   <em:translator>Katerina Vamvasaki (Greek)</em:translator>
+   <em:translator>Carmel Ravid (Hebrew)</em:translator>
+   <em:translator>Peter Ferenczy (Hungarian)</em:translator>
+   <em:translator>Lorenzo Vigentini (Italian)</em:translator>
+   <em:translator>Katsuhiko Okano (Japanese)</em:translator>
+   <em:translator>Laisvunas (Lithuanian)</em:translator>
+   <em:translator>Janusz Tyle (Polish)</em:translator>
+   <em:translator>Anderson Marques Ferraz (Brazilian Portuguese)</em:translator>
+   <em:translator>José Pinto (European Portuguese)</em:translator>
+   <em:translator>Benjamin "Catire" Medina (Spanish)</em:translator>
+   <em:translator>Tommy Lundahl (Swedish)</em:translator>
+   <em:translator>Zeki Celikbas (Turkish)</em:translator>
+   <em:homepageURL>http://www.epubread.com/</em:homepageURL>
+   <em:iconURL>chrome://epubreader/skin/logo.png</em:iconURL>
+
+   <em:localized>
+      <Description>
+         <em:locale>de-DE</em:locale>
+         <em:name>EPUBReader</em:name>
+         <em:description>EPUB-Dateien direkt in Ihrem Browser lesen. Es wird keine zusätzliche Software benötigt.</em:description>
+         <em:creator>Michael Volz</em:creator>
+         <em:contributor>Andy Schindler</em:contributor>
+         <em:translator>Eric Liao (Chinesisch)</em:translator>
+         <em:translator>Brian Schau (Dänisch)</em:translator>
+         <em:translator>Paul Peeraerts (Esperanto)</em:translator>
+         <em:translator>Jussi Träskilä (Finnisch)</em:translator>
+         <em:translator>David Pierron (Französisch)</em:translator>
+         <em:translator>Katerina Vamvasaki (Griechisch)</em:translator>
+         <em:translator>Carmel Ravid (Hebräisch)</em:translator>
+         <em:translator>Lorenzo Vigentini (Italienisch)</em:translator>
+         <em:translator>Katsuhiko Okano (Japanisch)</em:translator>
+         <em:translator>Esteve Llorens (Katalanisch)</em:translator>
+         <em:translator>Laisvunas (Litauisch)</em:translator>
+         <em:translator>Paul Siegmann (Niederländisch)</em:translator>
+         <em:translator>Janusz Tyle (Polnisch)</em:translator>
+         <em:translator>Anderson Marques Ferraz (Brasilianisches Portugiesisch)</em:translator>
+         <em:translator>José Pinto (Europäisches Portugiesisch)</em:translator>
+         <em:translator>Tommy Lundahl (Schwedisch)</em:translator>
+         <em:translator>Benjamin "Catire" Medina (Spanisch)</em:translator>
+         <em:translator>Zeki Celikbas (Türkisch)</em:translator>
+         <em:translator>Peter Ferenczy (Ungarisch)</em:translator>
+         <em:homepageURL>http://www.epubread.com/</em:homepageURL>
+      </Description>
+   </em:localized>
+
+   <em:targetApplication>
+      <Description>
+      <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
+      <em:minVersion>18.0</em:minVersion>
+      <em:maxVersion>52.*</em:maxVersion>
+      </Description>
+   </em:targetApplication>
+   <em:targetApplication>
+      <Description>
+         <em:id>{92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a}</em:id>
+         <em:minVersion>2.15</em:minVersion>
+         <em:maxVersion>2.32.*</em:maxVersion>
+      </Description>
+   </em:targetApplication>
+</Description>
+</RDF>

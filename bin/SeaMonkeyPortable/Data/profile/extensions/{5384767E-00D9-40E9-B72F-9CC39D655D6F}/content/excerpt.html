@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<html>
+<body style="margin:0px;">
+
+<script language="javascript" type="text/javascript">
+var catalog = null;
+
+function getCatalog()
+{
+   if(!catalog)
+   {
+      catalog = Epubreader.getCatalog();
+   }
+
+   return catalog;
+};
+
+function close()
+{
+   catalog = getCatalog();
+   catalog.close();
+}
+</script>
+
+<table width="100%" height="100%" cellspacing="0px">
+<tr>
+   <td height="100%"><iframe id="excerpt_frame" type="content" style="border:0; width:100%; height:100%;"></iframe></td>
+</tr>
+<tr>
+   <td style="background-color:#fff8dc; border-top:2px solid #E5F0FB; padding-top:7px; padding-bottom:7px; text-align:center;"><a href="#" onclick="close();" style="outline:none;"><img src="chrome://epubreader/skin/close.png" style="border:none;" /></a></td>
+</tr>
+</table>
+
+
+
+</body>
+</html>

@@ -1,0 +1,35 @@
+component {be85f49c-68b4-4c67-a611-97061d60a09c} content/aboutEpubreader.js
+contract @mozilla.org/network/protocol/about;1?what=epubreader {be85f49c-68b4-4c67-a611-97061d60a09c}
+
+component {a196022c-d2e5-4f76-bb81-675f488f2ed8} content/aboutEpubcatalog.js
+contract @mozilla.org/network/protocol/about;1?what=epubcatalog {a196022c-d2e5-4f76-bb81-675f488f2ed8}
+
+content epubreader content/
+skin epubreader default skin/
+
+locale epubreader ca locale/ca/
+locale epubreader da-DK locale/da-DK/
+locale epubreader de-DE locale/de-DE/
+locale epubreader el-GR locale/el-GR/
+locale epubreader en-US locale/en-US/
+locale epubreader es-ES locale/es-ES/
+locale epubreader eo locale/eo/
+locale epubreader fi-FI locale/fi-FI/
+locale epubreader fr-FR locale/fr-FR/
+locale epubreader hu-HU locale/hu-HU/
+locale epubreader he-IL locale/he-IL/
+locale epubreader it-IT locale/it-IT/
+locale epubreader ja-JP locale/ja-JP/
+locale epubreader lt-LT locale/lt-LT/
+locale epubreader nl-NL locale/nl-NL/
+locale epubreader pl-PL locale/pl-PL/
+locale epubreader pt-BR locale/pt-BR/
+locale epubreader pt-PT locale/pt-PT/
+locale epubreader ru-RU locale/ru-RU/
+locale epubreader sv-SE locale/sv-SE/
+locale epubreader tr-TR locale/tr-TR/
+locale epubreader zh-TW locale/zh-TW/
+locale epubreader zh-CN locale/zh-CN/
+
+overlay chrome://browser/content/browser.xul chrome://epubreader/content/overlay.xul application={ec8030f7-c20a-464f-9b0e-13a3a9e97384} application={8de7fcbb-c55c-4fbe-bfc5-fc555c87dbc4}
+overlay chrome://navigator/content/navigator.xul chrome://epubreader/content/overlay_seamonkey.xul application={92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a}

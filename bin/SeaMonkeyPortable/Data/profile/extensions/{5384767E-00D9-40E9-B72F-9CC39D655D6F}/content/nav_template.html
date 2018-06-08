@@ -1,0 +1,53 @@
+<html class="navLeft">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+</head>
+
+<body class="navLeft">
+<table style="padding-bottom:5px;">
+%begin-error%
+<tr>
+   <td>
+      <table style="border-spacing:0px;">
+      <tr>
+         <td></td>
+         <td>
+            <ul id="navError">
+               <li><span style="font-size:16pt;">&#9888;</span>
+                  <ul>
+                     <li>%nav_error%</li>
+                  </ul>
+               </li>
+            </ul>
+         </td>
+      </tr>
+      </table>
+   </td>
+</tr>
+%end-error%
+%repeat-begin-toc%
+<tr>
+   <td>
+      <table class="navPoint">
+      <tr>
+         <td>%spacer%</td>
+         <td><span class="%level%"><a href="%url%" target="content">%desc%</a></span></td>
+      </tr>
+      </table>
+   </td>
+</tr>
+%repeat-end-toc%
+</table>
+
+<table id="spine" style="padding-top:5px; padding-bottom:5px; display:none;">
+%repeat-begin-spine%
+<tr>
+  <td><a href="%url%" id="%id%">%desc%</a></td>
+</tr>
+%repeat-end-spine%
+</table>
+
+</body>
+
+</html>

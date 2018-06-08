@@ -1,0 +1,22 @@
+<html:tr>
+   <html:td class="header" style="text-align:center; white-space:nowrap; padding-left:2px; padding-right:4px;"><html:input type="checkbox" id="toggle" style="display:inline-block;" title="Toggle all checkboxes" onclick="library.toggleDeleteCheckboxes();" /><html:img src="chrome://epubreader/skin/trashcan.png" id="delete_all" title="Delete all checked eBooks" style="margin-left:4px;" onclick="library.deleteEpubs(0);" /></html:td>
+   <html:td class="header" style="width:60%; font-weight:bold;"><html:a onclick="library.sort(library.sort_title);" title="%tooltip_sort_title%">%title%</html:a></html:td>
+   <html:td class="header" style="width:30%; font-weight:bold;"><html:a onclick="library.sort(library.sort_author);" title="%tooltip_sort_author%">%author%</html:a></html:td>
+   <html:td class="header" style="width:10%; font-weight:bold;"><html:a onclick="library.sort(library.sort_timestamp);" title="%tooltip_sort_added%">%added%</html:a></html:td>
+   <html:td class="header" style="font-weight:bold;"></html:td>
+   <html:td class="header" style="font-weight:bold;"></html:td>
+   <html:td class="header" style="font-weight:bold;"></html:td>
+   <html:td class="header" style="font-weight:bold;"></html:td>
+</html:tr>
+%repeat-begin%
+<html:tr class="data">
+   <html:td style="text-align:center;"><html:input type="checkbox" name="%id%"></html:input></html:td>
+   <html:td title="%tooltip_open%" onclick="library.openEpub(%id%);">%title%</html:td>
+   <html:td title="%tooltip_open%" onclick="library.openEpub(%id%);">%author%</html:td>
+   <html:td title="%tooltip_open%" onclick="library.openEpub(%id%);">%timestamp%</html:td>
+   <html:td><toolbarbutton image="chrome://epubreader/skin/metadata.png" tooltiptext="%tooltip_meta%" oncommand="library.showMetadata(0, null, %id%);" /></html:td>
+   <html:td><toolbarbutton image="chrome://epubreader/skin/tag.png" class="tag" tooltiptext="%tooltip_tag%" oncommand="library.openEditTags(%id%);" /></html:td>
+   <html:td><toolbarbutton image="chrome://epubreader/skin/save.png" tooltiptext="%tooltip_save%" oncommand="picker.save(0, null, %id%);" /></html:td>
+   <html:td><toolbarbutton image="chrome://epubreader/skin/trashcan.png" tooltiptext="%tooltip_delete%" oncommand="library.deleteEpub(0, null, %id%);" /></html:td>
+</html:tr>
+%repeat-end%

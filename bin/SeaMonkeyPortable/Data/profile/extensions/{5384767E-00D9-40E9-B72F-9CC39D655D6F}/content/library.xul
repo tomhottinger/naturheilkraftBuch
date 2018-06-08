@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+
+<?xml-stylesheet href="chrome://epubreader/content/library.css" type="text/css"?>
+
+<page xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul" xmlns:html="http://www.w3.org/1999/xhtml">
+<script language="javascript" type="text/javascript" src="chrome://epubreader/content/library.js"/>
+<script language="javascript" type="text/javascript" src="chrome://epubreader/content/picker.js"/>
+
+<vbox style="margin:5px 0px 0px 5px;">
+   <html:div><html:a id="synchronize" onclick="library.openSync();" style="outline:none;"><html:img src="chrome://epubreader/skin/synchronize.png" style="border:none;" /></html:a></html:div>
+</vbox>
+
+<stack flex="1" style="overflow:auto;">
+   <vbox flex="1" style="overflow:auto;">
+      <html:table id="epub" class="epub" />
+   </vbox>
+   <html:table id="meta" class="meta" style="display:none;" />
+</stack>
+
+</page>

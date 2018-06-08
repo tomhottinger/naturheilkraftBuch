@@ -1,0 +1,772 @@
+Manifest-Version: 1.0
+
+Name: install.rdf
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 6iHutUuhGuRGJRUFbeJuxg==
+SHA1-Digest: 4yLlxyhW7yyd9cvN7cMfuK6OyNg=
+
+Name: chrome.manifest
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: y5st00jkPwpBDwZ+ppOUEQ==
+SHA1-Digest: TQVYAkMILVbtzL+/rWAPjDHq/+E=
+
+Name: content/aboutEpubcatalog.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: glqtOvNnHmMxXSO7fqN8Ow==
+SHA1-Digest: 9r+BeA8+TcjQx94Q8UGLtKDuEKU=
+
+Name: content/aboutEpubreader.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: tlrUK7N2GYMuj2rNOmP0ng==
+SHA1-Digest: Vp1UxwtIv2yt5Pj9i81NwqfRPpk=
+
+Name: content/catalog.css
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: b9Bj/ziL6dpOByqVudFiuw==
+SHA1-Digest: zRLpW7Cw0r1TFm55ZdL1U7MIIZ0=
+
+Name: content/catalog.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: UUQvYWEPOrOQizbOGP7Ulw==
+SHA1-Digest: Zlw05bzq1yNk5h1lyonk2CDBw+4=
+
+Name: content/catalog.xul
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: r2LxSxtmfkC7BDjhs3HSdA==
+SHA1-Digest: bUbR4XAQQdTa0jNJVrzs3/hxGHQ=
+
+Name: content/catalog_item_details.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: lIXmFfDXpjXi89DP408I1w==
+SHA1-Digest: JCbYxzTrAYctulszWgpNdvr+YL4=
+
+Name: content/catalog_item_details_template.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: B8lVODlFrrg9cTI+K7OLPw==
+SHA1-Digest: iTbYR9I9B6bNg8fZNNfFQemVPGU=
+
+Name: content/catalog_items.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: mXJXkyuJTbsDTaeljaDvGA==
+SHA1-Digest: kBc/yXOwIj2rO5aIjQG8zIUjW+A=
+
+Name: content/catalog_items_template.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: Fb+tSxj9GAvYUA9+k36nfg==
+SHA1-Digest: 4rqs5rZ4fIdfZb2hyy/OoEuFuzY=
+
+Name: content/catalog_nav.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: W8fhTQVRRzl4FVsyA9sdjw==
+SHA1-Digest: uYBAHNutfATCsEzXtQfM7HGGi4A=
+
+Name: content/content.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: S0gl59jhBETAsuVJfmkjyg==
+SHA1-Digest: +6S27yCeCchc/JJGLmHNifq6gpA=
+
+Name: content/epub_template.css
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: SWD73XptYA/v9OtzQdyonw==
+SHA1-Digest: xBIWQGucTrDSzajfdH6jdop3hEs=
+
+Name: content/Epubreader.jsm
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: Qz16WvEN0dWJAMnj9CPJ0w==
+SHA1-Digest: hRi+ip9RnKZtSNpK6f2DvBZLLcM=
+
+Name: content/EpubreaderConverter.jsm
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: NvKqUyPyA5+kGgDXUZgLYQ==
+SHA1-Digest: iaH+avp8vRTEFIfQqhtMew24fgs=
+
+Name: content/EpubreaderRegistrar.jsm
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: FcdWyfaErnB/n82M1p2oKA==
+SHA1-Digest: W4AADT85GTR2QgJku7IPypmjodQ=
+
+Name: content/EpubreaderSynchronizer.jsm
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 1IkJNCzDc8VCrVb/GpQZJw==
+SHA1-Digest: 9g4CAU3tzm0Sau0WDasoNrntINc=
+
+Name: content/EpubreaderUtils.jsm
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: pZ3N8FCKullZwAyj1cAygA==
+SHA1-Digest: dxz9yhaThZc8e3I73MS5lh1lXV0=
+
+Name: content/error.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: kHGlFJrV94qBOiaaXH+qLw==
+SHA1-Digest: 3iRE/r7OjzPG+4/1ETsRQr1OaB4=
+
+Name: content/error.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: GyywTC11pHitMNGM7BZTEw==
+SHA1-Digest: H+ciy1s8unjpS+Ni1Ey3fT7Zw7I=
+
+Name: content/excerpt.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 6CJRiKQ2BgpdUz04puPo6w==
+SHA1-Digest: oMO6JVE9AX1OzqSvMN5P88aY8QM=
+
+Name: content/info.css
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: //6QnNVLj4bGw3LE9tVndQ==
+SHA1-Digest: i69j9/6RPYN6IKVI2NxrmdfmSJQ=
+
+Name: content/library.css
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: /G2/86/vOjpYWCRRqRpkOg==
+SHA1-Digest: 5o5l3cX/OzUHHxZIS9v5GLs8klo=
+
+Name: content/library.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: C/N/PcFH+R98CuFgtOBkHQ==
+SHA1-Digest: jrc7N+apZbliqtk1ygeeSVYIkd4=
+
+Name: content/library.xul
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: jjf7AXvm3LOQX2iS1SVrkw==
+SHA1-Digest: mUYKx6aWVQEMO8gP2uYgAtV+GDA=
+
+Name: content/library_book_tags.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: kWkkvtK0JEn3oPYYefSfLg==
+SHA1-Digest: 2F48tjR5XwGw31W0FiGa4Ui4ZlQ=
+
+Name: content/library_book_tags.xul
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: blRJpWc0qEJshIuUDKdm3A==
+SHA1-Digest: Tcjd1Z/uYC5MSMxE0EqByFhawrA=
+
+Name: content/library_metadata_template.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: NbKlfLsLXP0XC4i8OeNBbQ==
+SHA1-Digest: LckSPZMrXU8HrSO+CvH8i253RVI=
+
+Name: content/library_tags.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 9IZQGJIYpvPuYbdQN9zBJw==
+SHA1-Digest: uyMJGaUiZg1EHWPhFyix6KhIVVU=
+
+Name: content/library_tags.xul
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: tlJxKP+RzO13DLt69GiSIA==
+SHA1-Digest: 5DaxRUuhq9duNwz343NmLmrXINI=
+
+Name: content/library_template.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: DzZZXUEjDAL5s5TP6ZCntg==
+SHA1-Digest: oS8jcto0oKL1oSQeZuutf8Uop2Y=
+
+Name: content/nav_template.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: dQ8AXHhqKeKN37FJoNeqhw==
+SHA1-Digest: YHKKs6DVIIIzDkKRniYp8C7NigA=
+
+Name: content/opdsreader.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: PdC0omnOcp9iVgPleKl5Pg==
+SHA1-Digest: LIZnc6QKcQcgsu6ZrjEbFZPMfwc=
+
+Name: content/overlay.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: Bx83hXR5rKK+XoT5HFPEeQ==
+SHA1-Digest: Qpp+Xf4XGvWI3u8AxZhf8vEFR+c=
+
+Name: content/overlay.xul
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: QDYOm7YSE3Mf+JAEouDqbA==
+SHA1-Digest: ebNjwhOiHmu24Mx4/LI5c85w7LU=
+
+Name: content/overlay_seamonkey.xul
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: wA7kFSuP5UyJO8vyPRtijQ==
+SHA1-Digest: ARLUEjI31j/pnRC+dAJ3tvcw3aM=
+
+Name: content/paging_notification_template.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: ySKEs72Xp92pqejHgYxV+g==
+SHA1-Digest: hd74nyhwRWAfjPqzXU3oEadWEHc=
+
+Name: content/picker.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: d5Gj5hnCYnCPFzyP4TujNQ==
+SHA1-Digest: z2oLD+jUkHCiA12RPoJoKx5QW68=
+
+Name: content/reader.css
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: RPtFoKYxmnUSlq6HNMZrcA==
+SHA1-Digest: AtQekcbKOuXa9fgL7azB5GOpjLM=
+
+Name: content/reader.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: hpHXtSklTSpMyOdexksosA==
+SHA1-Digest: HOzN8JkTjy2R1AB0nvW7HoI3/2k=
+
+Name: content/reader.xul
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: rLEiR1PeC2zovaHEF4jBQQ==
+SHA1-Digest: UFaJ+orFIcFMYWWwsyPPE07nvMQ=
+
+Name: content/synchronize.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: QnE9lfoE8BxKCYZkQsp4Pg==
+SHA1-Digest: 7P96BS26OD8ug1hGnct0OUa9nBI=
+
+Name: content/synchronizer.css
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: xI1Cj6q/brZApotyRPR4qA==
+SHA1-Digest: Hw7LrPJG9+WfQ+ih9CpJzU54u7I=
+
+Name: content/synchronizer.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: wsnAN4/CI4FmxicVZoYGiw==
+SHA1-Digest: oihXhwCFUlU5Ypk027iLwGmqVeU=
+
+Name: content/toolbar_notification_template.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: QUCh5iOoOntaJSnxhpIq8A==
+SHA1-Digest: 82+++WO2De2UEx8SLybcZNxwFIk=
+
+Name: content/prefs/prefs.css
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 1hDt/aAVaqqOLFWzkqWFFg==
+SHA1-Digest: eciYMYagM9V+hybIOU5EDwwr7IU=
+
+Name: content/prefs/prefs.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: FXHbZsahkEQ89OubOClggg==
+SHA1-Digest: pk/zN4ovcQDjgB0YSZf8Tv6oUss=
+
+Name: content/prefs/prefs.xul
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: omyOLHVKRLT/EM68l1hSPg==
+SHA1-Digest: yCZ+q2MvfGcL2vI081krQugbKqg=
+
+Name: defaults/preferences/defaults.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: zBJa2IatMH3Jd/cymag60w==
+SHA1-Digest: H7Fq+eWl2iOk681eKnSC3Pt0Bzs=
+
+Name: locale/ca/epubreader.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: +/jGUotrxb1+RvsL6u28qA==
+SHA1-Digest: LDRWD+Aj8FsjQt4odqc8BrbC7bI=
+
+Name: locale/ca/epubreader.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: p+555e0QeVwuUDO/PgvFzQ==
+SHA1-Digest: by2JyFwzZY4bDObt3bojJwZkj0U=
+
+Name: locale/ca/whatsnew.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: FCEYHyVoTdFYmaeoQksozA==
+SHA1-Digest: xgoybFXn48+xpg8TyXKX6cK3cAs=
+
+Name: locale/da-DK/epubreader.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: vclfzrvlKWcvKdqd2vCjgw==
+SHA1-Digest: p6KYB0qkB7pByWVh1prA/r39gGs=
+
+Name: locale/da-DK/epubreader.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: hMCYnOT0evZ/Owb+OLqCWQ==
+SHA1-Digest: grHQwrAVWahWdBAlPOJPLqEVrBE=
+
+Name: locale/da-DK/whatsnew.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: FCEYHyVoTdFYmaeoQksozA==
+SHA1-Digest: xgoybFXn48+xpg8TyXKX6cK3cAs=
+
+Name: locale/de-DE/epubreader.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: GZ5bXS0Jl6y1TvNIoUTjcg==
+SHA1-Digest: pxhhDjBrWgbqMn+ktgcDtc59DzA=
+
+Name: locale/de-DE/epubreader.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: +xxB9oDBkztOG5gIlpnkXA==
+SHA1-Digest: bhuWPVbPe3+KLAyE1zE6VnV32RE=
+
+Name: locale/de-DE/whatsnew.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: nsXyTFKiyRUUi1MLtBQgTw==
+SHA1-Digest: cciyosfPjXxEUonHILVFlf/YAfQ=
+
+Name: locale/el-GR/epubreader.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: +auX1dVG8zgVxchJKaxmaw==
+SHA1-Digest: sGcwlkGSFiYYcm+wpc/yBqX7KHA=
+
+Name: locale/el-GR/epubreader.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: iIAjbIigKNDrw2tEarZ5pw==
+SHA1-Digest: RSF+GEhHlM9oG6EuUVpXSy7pTds=
+
+Name: locale/el-GR/whatsnew.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: FCEYHyVoTdFYmaeoQksozA==
+SHA1-Digest: xgoybFXn48+xpg8TyXKX6cK3cAs=
+
+Name: locale/en-US/epubreader.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: AT18OBdSsid3Z0rHhR9xpA==
+SHA1-Digest: eF1bGhrlldYhWalE6ZJz30aUZXc=
+
+Name: locale/en-US/epubreader.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 4OdMB5OY49smSVB9ruRt3w==
+SHA1-Digest: Z0RIRsslXecL0oEr6vjJ1oMb7Jo=
+
+Name: locale/en-US/whatsnew.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: FCEYHyVoTdFYmaeoQksozA==
+SHA1-Digest: xgoybFXn48+xpg8TyXKX6cK3cAs=
+
+Name: locale/eo/epubreader.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: hNR0WNlwf2cBp7y/d4AH3w==
+SHA1-Digest: sChHJQnyH+ePtsjtY8KMPxIEPdo=
+
+Name: locale/eo/epubreader.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: jVutl3d+2qDzgGFTOdBvtg==
+SHA1-Digest: KPzZPsJdz8jk3RI+B5sOYuMd6Yg=
+
+Name: locale/eo/whatsnew.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: FCEYHyVoTdFYmaeoQksozA==
+SHA1-Digest: xgoybFXn48+xpg8TyXKX6cK3cAs=
+
+Name: locale/es-ES/epubreader.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: m94EbReVA97KxwEMjfur0g==
+SHA1-Digest: ZGaXr6DyG4WGR3Z/XDFYy/BB7h0=
+
+Name: locale/es-ES/epubreader.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 0mtSR1c5ZlbB5rLBQvP1MA==
+SHA1-Digest: GngSGiwvwFoNU1fZbMU154STmS8=
+
+Name: locale/es-ES/whatsnew.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: FCEYHyVoTdFYmaeoQksozA==
+SHA1-Digest: xgoybFXn48+xpg8TyXKX6cK3cAs=
+
+Name: locale/fi-FI/epubreader.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 2n1V64dm4uTZq8glbGj/Og==
+SHA1-Digest: sdiWGXSPd8Gy2FR+nApHvreLZdw=
+
+Name: locale/fi-FI/epubreader.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: XbWcny6ZqX4GJSm3JoX/NQ==
+SHA1-Digest: cKmcYe3IFTfraWOZBU+VmtH5eSc=
+
+Name: locale/fi-FI/whatsnew.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: FCEYHyVoTdFYmaeoQksozA==
+SHA1-Digest: xgoybFXn48+xpg8TyXKX6cK3cAs=
+
+Name: locale/fr-FR/epubreader.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: yc1kqKdLm/5lUCoP55B8VQ==
+SHA1-Digest: ZMcMdgMgbXOBuahUKph4yEXHb2s=
+
+Name: locale/fr-FR/epubreader.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: EgC3lVwhZwoCVjXMQdaAQA==
+SHA1-Digest: x7PzP7C/IFSHKkLo1XPaa88ao48=
+
+Name: locale/fr-FR/whatsnew.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: mM5roDtXOCZh+f6hyGKNsA==
+SHA1-Digest: VXQ1x5zNT7xeqKVE6WGnR2OeWtU=
+
+Name: locale/he-IL/epubreader.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 3Lva1t2jwJd3BruTgokIag==
+SHA1-Digest: Q4SdjD2Ihwrq7Qz6us9qs5eZci8=
+
+Name: locale/he-IL/epubreader.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: gLmL+NEiGiMHGupy1s1bmA==
+SHA1-Digest: 6v7zPcBi3m3c5MMibGXnDEmcRcA=
+
+Name: locale/he-IL/whatsnew.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: FCEYHyVoTdFYmaeoQksozA==
+SHA1-Digest: xgoybFXn48+xpg8TyXKX6cK3cAs=
+
+Name: locale/hu-HU/epubreader.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: nc/kgQEY4xRfY2zrjRdkSw==
+SHA1-Digest: l+rDBn3ej8vfeyC9dWEp2VVtlXA=
+
+Name: locale/hu-HU/epubreader.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: Dd91S8C6WEnuF7FnulVwGA==
+SHA1-Digest: RsAHlarOtGrJVoFqAb6WEDwNFTY=
+
+Name: locale/hu-HU/whatsnew.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: FCEYHyVoTdFYmaeoQksozA==
+SHA1-Digest: xgoybFXn48+xpg8TyXKX6cK3cAs=
+
+Name: locale/it-IT/epubreader.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: /xOKGBKErKJKlPRfHDbWgQ==
+SHA1-Digest: IBpq93yZkX9K+TcchuKEyMV08Z0=
+
+Name: locale/it-IT/epubreader.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 2Pg/4v6Yj4fLSgCX+fU1Pg==
+SHA1-Digest: F1mtB/SJ8NAE37gcfTXPZeTnX5I=
+
+Name: locale/it-IT/whatsnew.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: FCEYHyVoTdFYmaeoQksozA==
+SHA1-Digest: xgoybFXn48+xpg8TyXKX6cK3cAs=
+
+Name: locale/ja-JP/epubreader.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: CYPW6cnVrHD/XbshWu8C+A==
+SHA1-Digest: kr4M/NSXHjiH5GxXuEfR4nPsPsY=
+
+Name: locale/ja-JP/epubreader.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: Ng7iwHay3JWuN7Mc/xMMcA==
+SHA1-Digest: DoS9YPqq2aSy1URLEKx84+3WLrw=
+
+Name: locale/ja-JP/whatsnew.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: FCEYHyVoTdFYmaeoQksozA==
+SHA1-Digest: xgoybFXn48+xpg8TyXKX6cK3cAs=
+
+Name: locale/lt-LT/epubreader.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: FPdf7GozBT2rppr4ohsRgw==
+SHA1-Digest: at1ORHLvx2u0ly3sAGn8ta3k9wI=
+
+Name: locale/lt-LT/epubreader.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: QRis+nciDX/FKBxoBejP4w==
+SHA1-Digest: gZqb1hw4fSiUBUgTcig33ZA1+Bg=
+
+Name: locale/lt-LT/whatsnew.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: FCEYHyVoTdFYmaeoQksozA==
+SHA1-Digest: xgoybFXn48+xpg8TyXKX6cK3cAs=
+
+Name: locale/nl-NL/epubreader.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: pEEa3reQc/V9hBz+IwBg9w==
+SHA1-Digest: 3ppSMnXNYYh17FTnh66y8AMK/I4=
+
+Name: locale/nl-NL/epubreader.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: GmkhYBecVb/t+130vXUmTg==
+SHA1-Digest: cGvL0CJ7i0e9Cbh1UIQ/7GGc42E=
+
+Name: locale/nl-NL/whatsnew.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: FCEYHyVoTdFYmaeoQksozA==
+SHA1-Digest: xgoybFXn48+xpg8TyXKX6cK3cAs=
+
+Name: locale/pl-PL/epubreader.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: tW6PI8WeyLAbh0SJ3Wk5jQ==
+SHA1-Digest: e7wRpnXWUGbF/IiyarZCQlIsv4w=
+
+Name: locale/pl-PL/epubreader.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: HwjuZzQcwa+vqsuumdDSDw==
+SHA1-Digest: 4iX1+u7tmyh2ZMcrklCV2aP8PMc=
+
+Name: locale/pl-PL/whatsnew.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: FCEYHyVoTdFYmaeoQksozA==
+SHA1-Digest: xgoybFXn48+xpg8TyXKX6cK3cAs=
+
+Name: locale/pt-BR/epubreader.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: i3OG0bm5YCF23iFuGBP/ZA==
+SHA1-Digest: SoB0UkLmlMVnDBnEVtpH+ViofI4=
+
+Name: locale/pt-BR/epubreader.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 5JUc4JtSYhQfOZA32L8wqQ==
+SHA1-Digest: ccZlC8M/EOGCIuqG86BONxPbd5w=
+
+Name: locale/pt-BR/whatsnew.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: FCEYHyVoTdFYmaeoQksozA==
+SHA1-Digest: xgoybFXn48+xpg8TyXKX6cK3cAs=
+
+Name: locale/pt-PT/epubreader.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: cS1GOrOhHMTtj1Bia8/M+w==
+SHA1-Digest: l87GbGBx0YmWTnGkRHUJrs147ic=
+
+Name: locale/pt-PT/epubreader.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 7865hkTyabPXqLfLzA36Gw==
+SHA1-Digest: XIPVDxmsOAM7zqRyELDHpjYAPRE=
+
+Name: locale/pt-PT/whatsnew.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: FCEYHyVoTdFYmaeoQksozA==
+SHA1-Digest: xgoybFXn48+xpg8TyXKX6cK3cAs=
+
+Name: locale/ru-RU/epubreader.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: UEAy0p06tK5AJjbBWqM9PA==
+SHA1-Digest: mzWEOuIqQ+cjxYZOqAcOtjmDmSM=
+
+Name: locale/ru-RU/epubreader.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: nwxW+wQq25SYyoxVCImtlA==
+SHA1-Digest: G1tSawhVog+3oZ59tTl2R4yVwcE=
+
+Name: locale/ru-RU/whatsnew.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: FCEYHyVoTdFYmaeoQksozA==
+SHA1-Digest: xgoybFXn48+xpg8TyXKX6cK3cAs=
+
+Name: locale/sv-SE/epubreader.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: PcKSAuHfaielBV3B/o1ENA==
+SHA1-Digest: toiu7PWxhK5lwJAkvAQ8X5tyshg=
+
+Name: locale/sv-SE/epubreader.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: Cw6Ir6Hs3f9SikrciDEHEQ==
+SHA1-Digest: 9Wf1s9L1sFD/sBlZ5xjaieDSP0w=
+
+Name: locale/sv-SE/whatsnew.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: FCEYHyVoTdFYmaeoQksozA==
+SHA1-Digest: xgoybFXn48+xpg8TyXKX6cK3cAs=
+
+Name: locale/tr-TR/epubreader.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: eMlnEUZ3XA4lNFRumSCp7g==
+SHA1-Digest: YSWG+RbFU800FMnqv9ZTJDzA5z8=
+
+Name: locale/tr-TR/epubreader.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 1EclM4xNeLbQfCrmJlWbcw==
+SHA1-Digest: brs6+SqvDtiTMsJDhd+XPgOlgtw=
+
+Name: locale/tr-TR/whatsnew.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: FCEYHyVoTdFYmaeoQksozA==
+SHA1-Digest: xgoybFXn48+xpg8TyXKX6cK3cAs=
+
+Name: locale/zh-CN/epubreader.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 7JT3Zyfa2/0Sh7fxkboNEg==
+SHA1-Digest: 7FXDV3ppcMmVmBVBuREiLn1GtGU=
+
+Name: locale/zh-CN/epubreader.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: r3Zi/8x3i1yIxJRDKpKNUg==
+SHA1-Digest: fjCVhMgyGy5PfSUcJby6JgTUb8g=
+
+Name: locale/zh-CN/whatsnew.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: FCEYHyVoTdFYmaeoQksozA==
+SHA1-Digest: xgoybFXn48+xpg8TyXKX6cK3cAs=
+
+Name: locale/zh-TW/epubreader.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 1V/KdFEOC9x9CdLOwNvuhw==
+SHA1-Digest: BqC0ETSPqE90zZXqp9TYoz/yOGQ=
+
+Name: locale/zh-TW/epubreader.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: wo3o5O8b0QcDY1vWdIGzHg==
+SHA1-Digest: y3JegOGLNLsNRorQ1i+W/KNbs+0=
+
+Name: locale/zh-TW/whatsnew.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: FCEYHyVoTdFYmaeoQksozA==
+SHA1-Digest: xgoybFXn48+xpg8TyXKX6cK3cAs=
+
+Name: skin/basket.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 2+PYvUOsNuiZ790HiiFsRg==
+SHA1-Digest: 3OreOmv7pIZ0rIkgwtWAzYssjs0=
+
+Name: skin/book_open.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: oLN1X7k2gxiteVbTpdH7Bw==
+SHA1-Digest: +T7R3FTaEr9q+VSU3mrr5jMlce8=
+
+Name: skin/bookmark.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: Go3zQPYAE+wHLInUA7si+A==
+SHA1-Digest: djaAkuf595OvHWRWh1gS7uSYxWc=
+
+Name: skin/catalog_button_green.gif
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: gOhC8oXGzSC56lgdFcIo+g==
+SHA1-Digest: SzcibCKLpyXbyrlqC7u2WL07G+A=
+
+Name: skin/catalog_button_grey.gif
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: n4XXYbZ2kVpHmldN6p/Iiw==
+SHA1-Digest: CqgNlUQmFq2tOSue833KPLFuhCQ=
+
+Name: skin/close.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 5AGoqrqzRxeIm2WsP79taw==
+SHA1-Digest: xfeKLBkX1PIfJMQnbZ/ZnKRJHfI=
+
+Name: skin/close_notification.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: Si+VMP2rKDn2TZfHwtc6tQ==
+SHA1-Digest: p2ZT0qmTbUctnVflSgJ9z76H0bw=
+
+Name: skin/faq.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: BU72YXQP+5T8CiY+5bCpHA==
+SHA1-Digest: myeuuneR1ig+2CIMCwOOU8iQ3I4=
+
+Name: skin/favicon.ico
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: xYPxOxlgXlyuY2wiqnIlIA==
+SHA1-Digest: oIgGDVEN5yCQRwc0DGmzd3zgaec=
+
+Name: skin/folder_new.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: dRyjfM8HaS2MFUUsi2uU/g==
+SHA1-Digest: 9YQAeJsQG12R76TTfP8ZvU1CCdU=
+
+Name: skin/font_size_less.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: HKbj0GdY0qSEc1skakLwJQ==
+SHA1-Digest: TeyXNfq0zN3nvS3IKWG/A9yiYsw=
+
+Name: skin/font_size_more.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: //yPSMXTAvBPvYNhvZe6JQ==
+SHA1-Digest: aep6tLe5C1ehQ6JtWnU6MdHgKuY=
+
+Name: skin/library.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: hbO3rRtnvhz3ouU+v/eNZg==
+SHA1-Digest: kaEULgPeac3Vs5pdAtsUNbpD208=
+
+Name: skin/logo.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: RIRuOhotWNDQ4rYnoYav5w==
+SHA1-Digest: 34/bVcIA78KhrEIT6SwC9jr+Gpg=
+
+Name: skin/logo_menu.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: CQy5LkD1tn5oJX0vFy8iKQ==
+SHA1-Digest: 7P8ytvY3dSBhQK92EEn16HZLv/o=
+
+Name: skin/magnifier_26.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: WUDFxhT2c89G3a9cwVkMSg==
+SHA1-Digest: IbVdPfEHn4bflPLRcwciBf0IlH0=
+
+Name: skin/metadata.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 1k1Y1CpZkUlmGbPNdx05Xw==
+SHA1-Digest: hMrN5V24vKlIHRvaxOoYYWo51Lk=
+
+Name: skin/nav_backwards_disabled.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: bUZ6vkWp6WC3djABHcbSLg==
+SHA1-Digest: 8xqjxbxA/O1RU/tS4yRPJbZioYg=
+
+Name: skin/nav_backwards_enabled.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: KA9sYmpStWwcGkeT7dUDng==
+SHA1-Digest: L2jAbLr1uHIma2cSqq6QeANtNH4=
+
+Name: skin/nav_forwards_disabled.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: ucPFPW+EabO6cp2P3jKRlA==
+SHA1-Digest: zwpeouwq54HLZN+FGF0+YHAIk9k=
+
+Name: skin/nav_forwards_enabled.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: fyXKwfKem0XsgNsOnUWR3A==
+SHA1-Digest: lGV8UAky5yjrxX56KeQXgbPZpXs=
+
+Name: skin/nav_page_backwards_disabled.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: x+2wcXNFYTXGN0aDbD7LCA==
+SHA1-Digest: UtcqIzIa46WmOEGE3w8sy9CmibI=
+
+Name: skin/nav_page_backwards_enabled.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: Mx1kxLz32JAmna/2M3BavA==
+SHA1-Digest: D5t+sppETxNk/SEjHY1cCI8OqBI=
+
+Name: skin/nav_page_forwards_disabled.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: AkIzY9wjJ7q8pX/SNQ157A==
+SHA1-Digest: zDaVzeXXsvk7Xd8ZXcLrOkuwano=
+
+Name: skin/nav_page_forwards_enabled.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: PSFwwW9eJPR9F+Xs9f3w2Q==
+SHA1-Digest: fagUaoySwH8cWak6z/cdcVWZakE=
+
+Name: skin/preferences.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: peaBbNEp/QkUvyhVYOs6tQ==
+SHA1-Digest: H9mHa6b3XsYPYg+cwnGz9ALep1Y=
+
+Name: skin/reading_style.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: INsLKwrboI2cRcunhSewwA==
+SHA1-Digest: LFKjE1tg/Fwz5Ex8tNWnDFhh8To=
+
+Name: skin/save.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: yi7sVjJrrR6830JHsTMlHg==
+SHA1-Digest: Ujmt+6bIqGi1MBhuAWGocDNtuls=
+
+Name: skin/save_button.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: nNL7wxTfo91nXTVXA3aqzw==
+SHA1-Digest: fChqmviFwyteyKQdnKVXuI4cgUE=
+
+Name: skin/sponsor_button.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: GrKOAzriLtrKXcP76301Mw==
+SHA1-Digest: XC5MqcGrzMqQ0NyXRfsr1Rgee0Q=
+
+Name: skin/synchronize.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: xkv6GOJtNj7U7zBZWGZo7A==
+SHA1-Digest: I7NYg9Z0NLjo3VLWo9p/ZCp0WNQ=
+
+Name: skin/tag.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: VzLlyDbxICw/Ye8z3qd82Q==
+SHA1-Digest: 9UBra+LW8DNd+OaA7qCMAjbHMzw=
+
+Name: skin/trashcan.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: +4+5XAhyc9z0b823jfKP4w==
+SHA1-Digest: MzskXXUBepFlboaKx6HAaEWoS0g=
+
+Name: skin/vpn.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: cOy0Ecur8ruXpaBASuWzqQ==
+SHA1-Digest: ToIEJ2ZWldgzQ2drZrGXA0pKbW8=
+
+Name: license.txt
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: DTiLYWcwAy1vbo4ohfoxPg==
+SHA1-Digest: 926cFlFFUIYthueu8ofSrIIpKpw=
+

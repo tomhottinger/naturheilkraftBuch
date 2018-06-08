@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ncx version="2005-1" xmlns="http://www.daisy.org/z3986/2005/ncx/">
+  <head>
+    <meta name="dtb:uid" content="urn:uuid:d49ca32d-e376-4b55-92f8-58e7ac7e326e" />
+    <meta name="dtb:depth" content="1" />
+    <meta name="dtb:totalPageCount" content="0" />
+    <meta name="dtb:maxPageNumber" content="0" />
+    <meta name="cover" content="cover_png" />
+  </head>
+  <docTitle>
+    <text>naturheilkraft</text>
+  </docTitle>
+  <navMap>
+    <navPoint id="navPoint-0">
+      <navLabel>
+        <text></text>
+      </navLabel>
+      <content src="text/title_page.xhtml" />
+    </navPoint>
+    <navPoint id="navPoint-1">
+      <navLabel>
+        <text></text>
+      </navLabel>
+      <content src="text/ch001.xhtml#section" />
+    </navPoint>
+    <navPoint id="navPoint-2">
+      <navLabel>
+        <text>Introdution or How I came to write that book</text>
+      </navLabel>
+      <content src="text/ch002.xhtml#introdution-or-how-i-came-to-write-that-book" />
+    </navPoint>
+    <navPoint id="navPoint-3">
+      <navLabel>
+        <text>Was ist Krankheit, GEsundheit und Heilung</text>
+      </navLabel>
+      <content src="text/ch003.xhtml#was-ist-krankheit-gesundheit-und-heilung" />
+    </navPoint>
+    <navPoint id="navPoint-4">
+      <navLabel>
+        <text>Vorsorge wozu dann?</text>
+      </navLabel>
+      <content src="text/ch004.xhtml#vorsorge-wozu-dann" />
+      <navPoint id="navPoint-5">
+        <navLabel>
+          <text>Gesundsein macht Spass</text>
+        </navLabel>
+        <content src="text/ch004.xhtml#gesundsein-macht-spass" />
+      </navPoint>
+      <navPoint id="navPoint-6">
+        <navLabel>
+          <text>Wir werden schneller wieder gesund und sind anpassungsfähiger, wenn wir</text>
+        </navLabel>
+        <content src="text/ch004.xhtml#wir-werden-schneller-wieder-gesund-und-sind-anpassungsfähiger-wenn-wir" />
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint-7">
+      <navLabel>
+        <text>Wie die uebungen funtionieren.</text>
+      </navLabel>
+      <content src="text/ch005.xhtml#wie-die-uebungen-funtionieren." />
+    </navPoint>
+    <navPoint id="navPoint-8">
+      <navLabel>
+        <text>Systeme, sie greifen ineinander und können nicht einfach so isoliert betrachtet werden</text>
+      </navLabel>
+      <content src="text/ch006.xhtml#systeme-sie-greifen-ineinander-und-können-nicht-einfach-so-isoliert-betrachtet-werden" />
+      <navPoint id="navPoint-9">
+        <navLabel>
+          <text>Biologische Systeme vs. Funktionskreise</text>
+        </navLabel>
+        <content src="text/ch006.xhtml#biologische-systeme-vs.funktionskreise" />
+        <navPoint id="navPoint-10">
+          <navLabel>
+            <text>Biologische Systeme</text>
+          </navLabel>
+          <content src="text/ch006.xhtml#biologische-systeme" />
+        </navPoint>
+        <navPoint id="navPoint-11">
+          <navLabel>
+            <text>Endokrine Drüsen</text>
+          </navLabel>
+          <content src="text/ch006.xhtml#endokrine-drüsen" />
+        </navPoint>
+        <navPoint id="navPoint-12">
+          <navLabel>
+            <text>Fortpflanzung</text>
+          </navLabel>
+          <content src="text/ch006.xhtml#fortpflanzung" />
+        </navPoint>
+        <navPoint id="navPoint-13">
+          <navLabel>
+            <text>Funktionskreise</text>
+          </navLabel>
+          <content src="text/ch006.xhtml#funktionskreise" />
+        </navPoint>
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint-14">
+      <navLabel>
+        <text>Die übungen</text>
+      </navLabel>
+      <content src="text/ch007.xhtml#die-übungen" />
+      <navPoint id="navPoint-15">
+        <navLabel>
+          <text>Draussen sein</text>
+        </navLabel>
+        <content src="text/ch007.xhtml#draussen-sein" />
+        <navPoint id="navPoint-16">
+          <navLabel>
+            <text>Aufmerksamkeitsarten (ALerting, etc)</text>
+          </navLabel>
+          <content src="text/ch007.xhtml#aufmerksamkeitsarten-alerting-etc" />
+        </navPoint>
+        <navPoint id="navPoint-17">
+          <navLabel>
+            <text>Deshalb ab in den Wald.</text>
+          </navLabel>
+          <content src="text/ch007.xhtml#deshalb-ab-in-den-wald." />
+        </navPoint>
+        <navPoint id="navPoint-18">
+          <navLabel>
+            <text>Tageslicht</text>
+          </navLabel>
+          <content src="text/ch007.xhtml#tageslicht" />
+        </navPoint>
+      </navPoint>
+      <navPoint id="navPoint-19">
+        <navLabel>
+          <text>Sport</text>
+        </navLabel>
+        <content src="text/ch007.xhtml#sport" />
+      </navPoint>
+      <navPoint id="navPoint-20">
+        <navLabel>
+          <text>Atmung</text>
+        </navLabel>
+        <content src="text/ch007.xhtml#atmung-1" />
+      </navPoint>
+      <navPoint id="navPoint-21">
+        <navLabel>
+          <text>Achtsamkeit &amp; Meditation</text>
+        </navLabel>
+        <content src="text/ch007.xhtml#achtsamkeit-meditation" />
+      </navPoint>
+      <navPoint id="navPoint-22">
+        <navLabel>
+          <text>Yoga</text>
+        </navLabel>
+        <content src="text/ch007.xhtml#yoga" />
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint-23">
+      <navLabel>
+        <text>Einleitung</text>
+      </navLabel>
+      <content src="text/ch008.xhtml#einleitung" />
+    </navPoint>
+    <navPoint id="navPoint-24">
+      <navLabel>
+        <text>Teil 1: Hintergründe</text>
+      </navLabel>
+      <content src="text/ch009.xhtml#teil-1-hintergründe" />
+      <navPoint id="navPoint-25">
+        <navLabel>
+          <text>Gesundheit, Krankheit und Heilung</text>
+        </navLabel>
+        <content src="text/ch009.xhtml#gesundheit-krankheit-und-heilung" />
+      </navPoint>
+      <navPoint id="navPoint-26">
+        <navLabel>
+          <text>Wie die Uebungen</text>
+        </navLabel>
+        <content src="text/ch009.xhtml#wie-die-uebungen" />
+      </navPoint>
+      <navPoint id="navPoint-27">
+        <navLabel>
+          <text>Warum ist Sport gesund?</text>
+        </navLabel>
+        <content src="text/ch009.xhtml#warum-ist-sport-gesund" />
+      </navPoint>
+      <navPoint id="navPoint-28">
+        <navLabel>
+          <text>Weitere Faktoren, die der Gesundheit zuträglich sind.</text>
+        </navLabel>
+        <content src="text/ch009.xhtml#weitere-faktoren-die-der-gesundheit-zuträglich-sind." />
+      </navPoint>
+      <navPoint id="navPoint-29">
+        <navLabel>
+          <text>Der Menschliche Körper als vernetztes System.</text>
+        </navLabel>
+        <content src="text/ch009.xhtml#der-menschliche-körper-als-vernetztes-system." />
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint-30">
+      <navLabel>
+        <text>Einige Dinge im Voraus</text>
+      </navLabel>
+      <content src="text/ch010.xhtml#einige-dinge-im-voraus" />
+      <navPoint id="navPoint-31">
+        <navLabel>
+          <text>Disziplin, Komfortzone und Gewohnheit</text>
+        </navLabel>
+        <content src="text/ch010.xhtml#disziplin-komfortzone-und-gewohnheit" />
+      </navPoint>
+      <navPoint id="navPoint-32">
+        <navLabel>
+          <text>Achtsamkeit</text>
+        </navLabel>
+        <content src="text/ch010.xhtml#achtsamkeit" />
+        <navPoint id="navPoint-33">
+          <navLabel>
+            <text>Was ist nun Achtsamkeit?</text>
+          </navLabel>
+          <content src="text/ch010.xhtml#was-ist-nun-achtsamkeit" />
+        </navPoint>
+      </navPoint>
+      <navPoint id="navPoint-34">
+        <navLabel>
+          <text>Angst und der Umgang damit</text>
+        </navLabel>
+        <content src="text/ch010.xhtml#angst-und-der-umgang-damit" />
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint-35">
+      <navLabel>
+        <text>Übersicht über die Übungen</text>
+      </navLabel>
+      <content src="text/ch011.xhtml#übersicht-über-die-übungen" />
+    </navPoint>
+    <navPoint id="navPoint-36">
+      <navLabel>
+        <text>Danksagung</text>
+      </navLabel>
+      <content src="text/ch012.xhtml#danksagung" />
+    </navPoint>
+    <navPoint id="navPoint-37">
+      <navLabel>
+        <text>Über mich</text>
+      </navLabel>
+      <content src="text/ch013.xhtml#über-mich" />
+    </navPoint>
+  </navMap>
+</ncx>

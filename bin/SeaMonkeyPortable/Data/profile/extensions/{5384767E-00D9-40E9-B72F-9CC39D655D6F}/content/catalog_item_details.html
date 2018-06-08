@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="chrome://epubreader/content/catalog.css">
+</head>
+
+<body>
+
+<script language="javascript" type="text/javascript">
+Components.utils.import("chrome://epubreader/content/Epubreader.jsm");
+
+var catalog = null;
+
+function getCatalog()
+{
+   if(!catalog)
+   {
+      catalog = Epubreader.getCatalog();
+   }
+
+   return catalog;
+};
+
+function closeDetails()
+{
+   catalog = getCatalog();
+   catalog.closeDetails();
+}
+
+function showBuy(url)
+{
+   catalog = getCatalog();
+   catalog.showBuy(url);
+}
+
+function showExcerpt(url)
+{
+   catalog = getCatalog();
+   catalog.showExcerpt(url);
+}
+</script>
+
+<table id="catalog_item_details" class="details" />
+
+</body>
+</html>

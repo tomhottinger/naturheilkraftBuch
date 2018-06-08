@@ -1,0 +1,318 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+<!DOCTYPE window SYSTEM "chrome://epubreader/locale/epubreader.dtd">
+
+<?xml-stylesheet href="chrome://epubreader/content/prefs/prefs.css" type="text/css"?>
+
+<window id="epubreaderPrefs" title="&pref.title;" style="padding:5px;" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul" xmlns:html="http://www.w3.org/1999/xhtml" onload="epubPrefs.init();">
+<script type="application/x-javascript" src="chrome://epubreader/content/prefs/prefs.js"/>
+
+<tabbox flex="1" style="overflow-y:auto;">
+   <tabs>
+      <tab label="&pref.tab.content;" />
+      <tab label="&pref.tab.toc;" />
+      <tab label="&pref.tab.misc;" />
+   </tabs>
+   <tabpanels>
+      <tabpanel>
+         <vbox flex="1">
+            <spacer flex="1" />
+            <hbox flex="1">
+               <spacer flex="1" />
+               <grid>
+                  <columns>
+                     <column />
+                  </columns>
+                  <rows>
+                     <row>
+                        <grid>
+                           <columns>
+                              <column />
+                              <column />
+                           </columns>
+                           <rows>
+                              <row style="-moz-box-align:center;">
+                                 <label value="&pref.tab.content.color.background;:" style="text-align:right;" />
+                                 <groupbox>
+                                    <radiogroup id="contentBackgroundColorGroup">
+                                       <radio id="contentBackgroundColorAuthor" label="&pref.tab.content.defined_book;" onclick="document.getElementById('contentBackgroundColorPicker').disabled = true;" />
+                                       <hbox>
+                                          <radio id="contentBackgroundColorUser" label="&pref.tab.content.defined_user;" onclick="document.getElementById('contentBackgroundColorPicker').disabled = false;" />
+                                          <colorpicker id="contentBackgroundColorPicker" type="button" style="height:30px; width:50px;"/>
+                                       </hbox>
+                                    </radiogroup>
+                                 </groupbox>
+                              </row>
+                              <row style="-moz-box-align:center;">
+                                 <label value="&pref.tab.content.family.font;:" style="text-align:right;" />
+                                 <groupbox>
+                                    <radiogroup id="contentFontFamilyGroup">
+                                       <radio id="contentFontFamilyAuthor" label="&pref.tab.content.defined_book;" onclick="document.getElementById('contentFontFamilyMenulist').disabled = true;" />
+                                       <hbox>
+                                          <radio id="contentFontFamilyUser" label="&pref.tab.content.defined_user;" onclick="document.getElementById('contentFontFamilyMenulist').disabled = false;" />
+                                          <menulist id="contentFontFamilyMenulist" />
+                                       </hbox>
+                                    </radiogroup>
+                                 </groupbox>
+                              </row>
+                              <row style="-moz-box-align:center;">
+                                 <label value="&pref.tab.content.size.font;:" style="text-align:right;" />
+                                 <groupbox>
+                                    <radiogroup id="contentFontSizeGroup">
+                                       <radio id="contentFontSizeAuthor" label="&pref.tab.content.defined_book;" onclick="document.getElementById('contentFontSizeTextBox').disabled = true;" />
+                                       <hbox>
+                                          <radio id="contentFontSizeUser" label="&pref.tab.content.defined_user;" onclick="document.getElementById('contentFontSizeTextBox').disabled = false;" />
+                                          <textbox id="contentFontSizeTextBox" type="number" size="2" maxlength="2" min="5" max="20" />
+                                          <vbox>
+                                             <spacer flex="1" />
+                                             <label value="pt" />
+                                             <spacer flex="1" />
+                                          </vbox>
+                                       </hbox>
+                                    </radiogroup>
+                                 </groupbox>
+                              </row>
+                              <row style="-moz-box-align:center;">
+                                 <label value="&pref.tab.content.color.font;:" style="text-align:right;" />
+                                 <groupbox>
+                                    <radiogroup id="contentFontColorGroup">
+                                       <radio id="contentFontColorAuthor" label="&pref.tab.content.defined_book;" onclick="document.getElementById('contentFontColorPicker').disabled = true;" />
+                                       <hbox>
+                                          <radio id="contentFontColorUser" label="&pref.tab.content.defined_user;" onclick="document.getElementById('contentFontColorPicker').disabled = false;" />
+                                          <colorpicker id="contentFontColorPicker" type="button" style="height:30px; width:50px;"/>
+                                       </hbox>
+                                    </radiogroup>
+                                 </groupbox>
+                              </row>
+                              <row style="-moz-box-align:center;">
+                                 <label value="&pref.tab.content.margin;:" style="text-align:right;" />
+                                 <groupbox>
+                                    <radiogroup id="contentMarginGroup">
+                                       <radio id="contentMarginAuthor" label="&pref.tab.content.defined_book;" onclick="document.getElementById('contentMarginTextBox').disabled = true;" />
+                                       <hbox>
+                                          <radio id="contentMarginUser" label="&pref.tab.content.defined_user;" onclick="document.getElementById('contentMarginTextBox').disabled = false;" />
+                                          <textbox id="contentMarginTextBox" type="number" size="3" maxlength="3" min="0" max="500" />
+                                          <vbox>
+                                             <spacer flex="1" />
+                                             <label value="px" />
+                                             <spacer flex="1" />
+                                          </vbox>
+                                       </hbox>
+                                    </radiogroup>
+                                 </groupbox>
+                              </row>
+                              <row style="-moz-box-align:center;">
+                                 <label value="&pref.tab.content.line_height;:" style="text-align:right;" />
+                                 <groupbox>
+                                    <radiogroup id="contentLineHeightGroup">
+                                       <radio id="contentLineHeightDefault" label="&pref.tab.content.default;" onclick="document.getElementById('contentLineHeightTextBox').disabled = true;" />
+                                       <hbox>
+                                          <radio id="contentLineHeightUser" label="&pref.tab.content.defined_user;" onclick="document.getElementById('contentLineHeightTextBox').disabled = false;" />
+                                          <textbox id="contentLineHeightTextBox" type="number" size="3" decimalplaces="1" increment="0.1" maxlength="3" min="1" max="5" />
+                                          <vbox>
+                                             <spacer flex="1" />
+                                             <label value="em" />
+                                             <spacer flex="1" />
+                                          </vbox>
+                                       </hbox>
+                                    </radiogroup>
+                                 </groupbox>
+                              </row>
+                              <row style="-moz-box-align:center;">
+                                 <label value="&pref.tab.content.style;:" style="text-align:right;" />
+                                 <groupbox>
+                                    <radiogroup id="contentStyleGroup" oncommand="epubPrefs.updatePagingColumns();">
+                                       <vbox>
+                                          <radio id="contentStyleBook" label="&pref.tab.content.style.book;" />
+                                          <radio id="contentStyleWebsite" label="&pref.tab.content.style.website;" />
+                                       </vbox>
+                                    </radiogroup>
+                                 </groupbox>
+                              </row>
+                              <row>
+                              <box />
+                              <grid>
+                              <columns>
+                              <column flex="1" />
+                              <column flex="1" />
+                              </columns>
+                              <rows>
+                              <row style="-moz-box-align:center;">
+                                 <label value="&pref.tab.content.paging;:" style="text-align:right;" />
+                                 <groupbox>
+                                    <radiogroup id="contentPagingGroup" oncommand="epubPrefs.updateStyle();">
+                                       <vbox>
+                                          <radio id="contentPagingHorizontal" label="&pref.tab.content.paging.horizontal; &#8592;&#8594;" />
+                                          <radio id="contentPagingVertical" label="&pref.tab.content.paging.vertical; &#8593;&#8595;" />
+                                       </vbox>
+                                    </radiogroup>
+                                 </groupbox>
+                              </row>
+                              <row style="-moz-box-align:center;">
+                                 <label value="&pref.tab.content.column;:" style="text-align:right;" />
+                                 <groupbox>
+                                    <radiogroup id="contentColumnGroup" oncommand="epubPrefs.updateStyle()">
+                                       <radio id="contentColumnSingle" label="&pref.tab.content.column.single;" oncommand="document.getElementById('contentColumnTextBox').disabled = true;" />
+                                       <vbox>
+                                          <radio id="contentColumnAuto" label="&pref.tab.content.column.auto;" oncommand="document.getElementById('contentColumnTextBox').disabled = false;" />
+                                          <hbox>
+                                          <vbox>
+                                             <spacer flex="1" />
+                                             <label value="&pref.tab.content.column.min_width;:" />
+                                             <spacer flex="1" />
+                                          </vbox>
+                                          <textbox id="contentColumnTextBox" type="number" size="3" maxlength="3" min="0" max="999" />
+                                          <vbox>
+                                             <spacer flex="1" />
+                                             <label value="mm" />
+                                             <spacer flex="1" />
+                                          </vbox>
+                                          </hbox>
+                                       </vbox>
+                                    </radiogroup>
+                                 </groupbox>
+                              </row>
+                              </rows>
+                              </grid>
+                              </row>
+                           </rows>
+                        </grid>
+                     </row>
+                  </rows>
+               </grid>
+               <spacer flex="1" />
+            </hbox>
+            <spacer flex="1" />
+         </vbox>
+      </tabpanel>
+      <tabpanel>
+         <grid>
+            <columns>
+               <column />
+            </columns>
+            <rows>
+               <row>
+                  <grid>
+                     <columns>
+                        <column />
+                     </columns>
+                     <rows>
+                        <row style="-moz-box-align:center; padding:5px;">
+                           <label value="&pref.tab.toc.bg;:" style="text-align:right;" />
+                           <hbox>
+                              <colorpicker id="navColorPicker" type="button" onchange="epubPrefs.updateNavPreview();" style="width:50px; height:30px;"/>
+                              <spacer flex="1" />
+                           </hbox>
+                        </row>
+                        <row style="-moz-box-align:center; padding:5px;">
+                           <label value="&pref.tab.toc.link_unvisited;:" style="text-align:right;" />
+                           <hbox>
+                              <colorpicker id="navLinkUnvisitedColorPicker" onchange="epubPrefs.updateNavPreview();" type="button" style="width:50px; height:30px;" />
+                              <spacer flex="1" />
+                           </hbox>
+                        </row>
+                        <row style="-moz-box-align:center; padding:5px;">
+                           <label value="&pref.tab.toc.link_visited;:" style="text-align:right;" />
+                           <hbox>
+                              <colorpicker id="navLinkVisitedColorPicker" onchange="epubPrefs.updateNavPreview();" type="button" style="width:50px; height:30px;" />
+                              <spacer flex="1" />
+                           </hbox>
+                        </row>
+                        <row style="-moz-box-align:center; padding:5px;">
+                           <label value="&pref.tab.toc.link_hover;:" style="text-align:right;" />
+                           <hbox>
+                              <colorpicker id="navLinkHoverColorPicker" onchange="epubPrefs.updateNavPreview();" type="button" style="width:50px; height:30px;" />
+                              <spacer flex="1" />
+                           </hbox>
+                        </row>
+                        <row style="-moz-box-align:center; padding:5px;">
+                           <label value="&pref.tab.toc.font_size;:" style="text-align:right;" />
+                           <hbox>
+                              <textbox id="navLinkFontSizeTextBox" type="number" size="2" maxlength="2" min="5" max="20" onchange="epubPrefs.updateNavPreview();"/>
+                              <vbox>
+                                 <spacer flex="1" />
+                                 <label value="pt" />
+                                 <spacer flex="1" />
+                              </vbox>
+                              <spacer flex="1" />
+                           </hbox>
+                        </row>
+                        <row style="-moz-box-align:center; padding:5px;">
+                           <label value="&pref.tab.toc.font_family;:" style="text-align:right;" />
+                           <hbox>
+                              <menulist id="navLinkFontFamilyMenulist" oncommand="epubPrefs.updateNavPreview();" />
+                              <spacer flex="1" />
+                           </hbox>
+                        </row>
+                     </rows>
+                  </grid>
+                  <spacer width="10" />
+                  <groupbox style="width:140px;"><caption label="&pref.tab.toc.preview;" />
+                     <vbox id="navColorPreviewBox" flex="1" style="border:1px; border-style:solid; border-color:#000000; padding:5px;">
+                        <box><description><html:a id="navColorPreviewLinkUnvisited" href="#" style="font-family:Arial,sans-serif; font-size:10pt;">&pref.tab.toc.preview.unvisited;</html:a></description></box>
+                        <box><description><html:a id="navColorPreviewLinkVisited" href="#" style="font-family:Arial,sans-serif; font-size:10pt;">&pref.tab.toc.preview.visited;</html:a></description></box>
+                     </vbox>
+                  </groupbox>
+               </row>
+               <row style="-moz-box-align:center; padding:5px;">
+               <hbox>
+                  <spacer flex="1" />
+                  <button label="&pref.tab.toc.reset_default;" style="padding-left:10px; padding-right:10px;" onclick="epubPrefs.resetNavDefaults(); epubPrefs.updateNavPreview();" />
+                  <spacer flex="1" />
+               </hbox>
+               </row>
+            </rows>
+         </grid>
+      </tabpanel>
+      <tabpanel>
+         <grid flex="1">
+            <columns>
+               <column />
+               <column flex="1" />
+            </columns>
+            <rows>
+               <row style="margin-bottom:5px;">
+                  <vbox>
+                     <spacer flex="1" />
+                        <label value="&pref.tab.misc.calibre_url;:" style="text-align:right;" />
+                     <spacer flex="1" />
+                  </vbox>
+                  <textbox id="calibreUrl" flex="1" />
+               </row>
+               <row style="margin-bottom:5px;">
+                  <label value="&pref.tab.misc.js_enabled;:" style="text-align:right;" />
+                  <hbox>
+                     <checkbox id="jsEnabled" style="padding:0px;" />
+                     <spacer flex="1" />
+                  </hbox>
+               </row>
+               <row style="margin-bottom:5px;">
+                  <label value="&pref.tab.misc.plugins_enabled;:" style="text-align:right;" />
+                  <hbox>
+                     <checkbox id="pluginsEnabled" style="padding:0px;" />
+                     <spacer flex="1" />
+                  </hbox>
+               </row>
+               <row>
+                  <label value="&pref.tab.misc.paging_click_enabled;:" style="text-align:right;" />
+                  <hbox>
+                     <checkbox id="pagingClickEnabled" style="padding:0px;" />
+                     <spacer flex="1" />
+                  </hbox>
+               </row>
+            </rows>
+         </grid>
+      </tabpanel>
+   </tabpanels>
+</tabbox>
+
+<hbox style="padding-top:5px;">
+   <spacer flex="1" />
+   <button id="ok" label="&pref.ok;" default="true" accesskey="&pref.ok_access;" oncommand="epubPrefs.save(); window.close();"/>
+   <button id="cancel" label="&pref.cancel;" accesskey="&pref.cancel_access;" oncommand="window.close();"/>
+   <spacer flex="1" />
+</hbox>
+
+<spacer flex="1" />
+
+</window>

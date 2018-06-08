@@ -7,16 +7,17 @@ Die Frage ist gut. Für viele von uns ist Krankheit eine einschneidende Erfahrun
 Auch wenn ich keine Antwort auf diese Frage habe, dann denke ich, dass Krankheit zum Leben gehört. Sie hat für die Menschheit als Gesamtes eine wichige Funktion. 
 Das ist für jemand, der Trost sucht aber keine nützliche Antwort.  Es ist auch keine Antwort, wenn wir uns irgendwie darüber Gedanken machen, was wir für unsere Gesundheit tun können. Egal ob wir bereits Krank sind oder es nicht werden wollen.
  
-
 In diesem Buch geht es darum, was wir als Individuen dazu beitragen können um uns besser anzupassen. Wenn Du als Leser Wunder erwartest, dann wirst Du enttäuscht sein. Wunder sind im Feld der Gesundheit immer wieder in Form von Spontanheilungen anzutreffen. Im Grunde ist jede Heilung ein kleines Wunder, denn Heilung im alltäglichen Sinn ist nicht selbstverständlich. Auch ein Heilkundiger kann nicht einfach jemanden heilen. Er kann höchstens die Voraussetzungen für eine Heilung verbessern oder sie erst dadurch ermöglichen. Doch der Wiederherstellungsprozess ist weitgehend etwas, das von selber passiert und höchstens unterstützt, begleitet und geführt werden kann. 
 
 Das sollte uns bescheiden und dankbar stimmen.  
 
-Wunder und Heilung sind nicht Thema dieses Buches. Es geht viel mehr um Prävention in umfassenden Sinn. Trotzdem werde ich an der einen oder anderen Stelle auf meine Vorstellung von "Heilung" und Ganzheit eingehen. 
+Wunder und Heilung sind nicht Thema dieses Buches. Es geht viel mehr um Prävention in umfassenden Sinn.  Es ist mir wichtig aufzuzeigen, was wir alle selber tun können. Trotzdem werde ich an der einen oder anderen Stelle auf meine Vorstellung von "Heilung" und Ganzheit eingehen. 
 
 Es sind hier einfache Dinge aufgeführt, die eigentlich jeder machen kann. Du findest kein  "Programm" oder keine "Methode" wie dies in der Regel in der Selbsthilfeliteratur zu finden ist. Du findest einfach einige "Werkzeuge", die Du benutzen kannst um Gesund zu bleiben. Wenn Du krank bist, dann können diese Werkzeuge einen Betrag an Dein Wohlbefinden und an die Genesung leisten. Aber letzendlich musst Du selber entscheiden, ob Du diese Werkzeuge benutzen willst oder nicht. 
 
->Wenn Du Krank bist dann solltet Du alles, was Du tust mit Deinem Behandler (Arzt oder Heilpraktiker) absprechen.  Ich habe mich zwar bemüht, die Uebungen so auszugestalten, dass Sie gefahrlos gemacht werden können. Es ist jedoch nicht möglich, alle Uebungen für sämt.
+>Wenn Du Krank bist dann solltet Du alles, was Du tust mit Deinem Behandler (Arzt oder Heilpraktiker) absprechen.  Ich habe mich zwar bemüht, die Uebungen so auszugestalten, dass Sie gefahrlos gemacht werden können. Es ist jedoch nicht möglich, alle Uebungen für sämtliche Krankheiten und Dispositionen zu überprüfen, ob sie sinnvoll sind oder nicht. Zudem verfolgt Dein Behandler vermutlich einen Therapieplan. Die Uebungen sollen diesen ergänzen und nicht behindern. 
 
-Dein Tom 
+Viel Spass beim lesen und ausprobieren. 
+
+Herzlichst, Dein Tom Hottinger
 

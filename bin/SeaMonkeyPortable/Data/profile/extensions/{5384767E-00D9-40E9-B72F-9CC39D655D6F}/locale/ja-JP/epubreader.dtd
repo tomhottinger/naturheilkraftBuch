@@ -1,0 +1,72 @@
+<!ENTITY overlay.menu.epub_catalog "ePub カタログ">
+
+<!ENTITY pref.title "EPUBReader 設定">
+
+<!ENTITY pref.tab.content "コンテンツ">
+<!ENTITY pref.tab.content.defined_book "bookでの定義に従う">
+<!ENTITY pref.tab.content.defined_user "ユーザ定義">
+<!ENTITY pref.tab.content.color.background "背景色">
+<!ENTITY pref.tab.content.family.font "フォント">
+<!ENTITY pref.tab.content.size.font "フォントサイズ">
+<!ENTITY pref.tab.content.color.font "フォント色">
+<!ENTITY pref.tab.content.margin "マージン幅">
+
+<!ENTITY pref.tab.toc "目次">
+<!ENTITY pref.tab.toc.bg "背景色">
+<!ENTITY pref.tab.toc.link_unvisited "未訪問リンク">
+<!ENTITY pref.tab.toc.link_visited "訪問済リンク">
+<!ENTITY pref.tab.toc.link_hover "マウスオーバー時のリンク">
+<!ENTITY pref.tab.toc.font_family "フォント">
+<!ENTITY pref.tab.toc.font_size "フォントサイズ">
+<!ENTITY pref.tab.toc.preview "プレビュ">
+<!ENTITY pref.tab.toc.preview.unvisited "未訪問">
+<!ENTITY pref.tab.toc.preview.visited "訪問済">
+<!ENTITY pref.tab.toc.reset_default "デフォルトに戻す">
+
+<!ENTITY pref.tab.misc "その他">
+<!ENTITY pref.tab.misc.calibre_url "Calibre OPDS Url">
+
+<!ENTITY pref.ok "OK">
+<!ENTITY pref.ok_access "O">
+<!ENTITY pref.cancel "Cancel">
+<!ENTITY pref.cancel_access "C">
+
+<!ENTITY reader.preferences "設定">
+<!ENTITY reader.help "ヘルプ">
+<!ENTITY reader.catalog "ePub カタログ/C">
+<!ENTITY reader.save "コピーを保存/S">
+<!ENTITY reader.bookmark "ブックマークの挿入/D">
+<!ENTITY reader.font_smaller "フォントを小さく/-">
+<!ENTITY reader.font_larger "フォントを大きく/+">
+
+<!ENTITY pref.tab.misc.js_enabled "Javascript 利用可能">
+<!ENTITY reader.nav_backwards "前の章へ">
+<!ENTITY reader.nav_forwards "次の章へ">
+<!ENTITY reader.toolbar_locked "ツールバーを常に表示する">
+<!ENTITY reader.keyboard_shortcuts "キーボードショートカットのヘルプ">
+
+<!ENTITY pref.tab.content.column.min_width "最小カラム幅">
+<!ENTITY pref.tab.misc.plugins_enabled "Plugins 利用可能">
+
+<!ENTITY pref.tab.content.style "読書スタイル">
+<!ENTITY pref.tab.content.style.book "書籍 (ページング &#8592;&#8594; / &#8805; 1 カラム)">
+<!ENTITY pref.tab.content.style.website "ウェブサイト (ページング &#8593;&#8595; / 1 カラム)">
+<!ENTITY pref.tab.content.column "カラムカウント">
+<!ENTITY pref.tab.content.column.single "1カラム">
+<!ENTITY pref.tab.content.column.auto "自動">
+<!ENTITY pref.tab.content.paging "ページング">
+<!ENTITY pref.tab.content.paging.vertical "縦方向">
+<!ENTITY pref.tab.content.paging.horizontal "横方向">
+<!ENTITY reader.nav_page_backwards "前のページへ/&lt;-">
+<!ENTITY reader.nav_page_forwards "次のページへ/-&gt;">
+<!ENTITY reader.reading_style "読み方のスタイルを変更">
+
+
+<!ENTITY pref.tab.misc.paging_click_enabled "クリックでページを移動する">
+<!ENTITY pref.tab.content.default "デフォルト設定">
+<!ENTITY pref.tab.content.line_height "行の高さ">
+<!ENTITY catalog.add_tag "追加">
+<!ENTITY catalog.rename_tag "名前の変更">
+<!ENTITY catalog.delete_tag "削除">
+<!ENTITY tag.name "タグ付け">
+<!ENTITY book_tag.tagging "タグ">

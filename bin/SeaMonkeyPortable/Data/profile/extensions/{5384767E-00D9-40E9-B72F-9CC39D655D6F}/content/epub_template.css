@@ -1,0 +1,167 @@
+@-moz-document url-prefix(%root%)
+{
+   html
+   {
+      %contentBackgroundColorBegin%background-color:%contentBackgroundColor% !important;%contentBackgroundColorEnd%
+      %contentColumnBegin%-moz-column-width:%contentColumnWidth% !important;%contentColumnEnd%
+      %contentColumnBegin%column-width:%contentColumnWidth% !important;%contentColumnEnd%
+      -moz-column-gap:10px !important;
+      column-gap:10px !important;
+      -moz-column-count:%contentColumnCount% !important;
+      column-count:%contentColumnCount% !important;
+      -moz-column-fill:%contentColumnFill% !important;
+      column-fill:%contentColumnFill% !important;
+      %contentPagingDirBegin%height:auto !important;%contentPagingDirEnd%
+      margin-top:6px !important;
+      margin-bottom:6px !important;
+   }
+
+   body
+   {
+      %contentMarginBegin%margin-left:%contentMargin% !important;%contentMarginEnd%
+      %contentMarginBegin%margin-right:%contentMargin% !important;%contentMarginEnd%
+      %contentPaddingBegin%padding-left:%contentPadding% !important;%contentPaddingEnd%
+      %contentPaddingBegin%padding-right:%contentPadding% !important;%contentPaddingEnd%
+      %contentFontSizeBegin%font-size:%contentFontSize% !important;%contentFontSizeEnd%
+      %contentFontFamilyBegin%font-family:%contentFontFamily% !important;%contentFontFamilyEnd%
+      %contentFontColorBegin%color:%contentFontColor% !important;%contentFontColorEnd%
+      %contentBackgroundColorBegin%background-color:%contentBackgroundColor% !important;%contentBackgroundColorEnd%
+      %contentColumnBegin%text-align:justify !important;%contentColumnEnd%
+   }
+
+   div, span, p, ul, li
+   {
+      %contentBackgroundColorBegin%background-color:%contentBackgroundColor% !important;%contentBackgroundColorEnd%
+      %contentFontSizeBegin%font-size:%contentFontSize% !important;%contentFontSizeEnd%
+      %contentFontFamilyBegin%font-family:%contentFontFamily% !important;%contentFontFamilyEnd%
+      %contentFontColorBegin%color:%contentFontColor% !important;%contentFontColorEnd%
+      line-height:%contentLineHeight% !important;
+   }
+
+   h1, h2, h3, h4, h5, h6
+   {
+      %contentBackgroundColorBegin%background-color:%contentBackgroundColor% !important;%contentBackgroundColorEnd%
+      %contentFontFamilyBegin%font-family:%contentFontFamily% !important;%contentFontFamilyEnd%
+      %contentFontColorBegin%color:%contentFontColor% !important;%contentFontColorEnd%
+   }
+
+   img
+   {
+      max-width:100%;
+   }
+}
+
+/* TOC */
+html.navLeft, html.navLeft div, html.navLeft span, html.navLeft p
+{
+   background-color:%navLeftBackgroundColor% !important;
+   font-family:%navLeftFontFamily% !important;
+   -moz-column-count:1 !important;
+   column-count:1 !important;
+   line-height:normal !important;
+}
+
+body.navLeft
+{
+   margin-left:0px !important;
+   margin-right:0px !important;
+   padding-left:0px !important;
+   padding-right:0px !important;
+   font-family:%navLeftFontFamily% !important;
+   background-color:%navLeftBackgroundColor% !important;
+}
+
+table.navPoint
+{
+   padding:0px !important;
+   padding-left:3px !important;
+   font-size:%navLeftLinkFontSize% !important;
+}
+
+table.navPoint a
+{
+   color:%navLeftLinkUnvisitedColor% !important;
+   text-decoration:none !important;
+}
+
+table.navPoint a:visited
+{
+   color:%navLeftLinkVisitedColor% !important;
+}
+
+table.navPoint a:hover
+{
+   color:%navLeftLinkHoverColor% !important;
+}
+
+#navError
+{
+   padding:0px 0px 0px 3px;
+   margin:0px;
+   list-style:none;
+   color:%navLeftLinkHoverColor%;
+   font-size:10pt;
+}
+
+#navError:hover
+{
+   color:%navLeftLinkUnvisitedColor%;
+   cursor:pointer;
+}
+
+#navError li ul
+{
+   display:none;
+   padding:10px;
+   margin-right:5px;
+   list-style: none;
+   position:absolute;
+   background-color:#ffffff;
+   border:2px solid #E5F0FB;
+   color:#777;
+}
+
+#navError li:hover ul
+{
+   display:block;
+}
+
+/*
+#menu li ul li
+{
+   border-bottom:1px solid #0079b2;
+   width:100%;
+}
+*/
+
+
+
+.topLevel
+{
+   font-size:%navLeftLinkFontSize% !important;
+}
+
+.childLevel
+{
+   font-size:90% !important;
+}
+/* TOC end */
+
+/* Navigationbar bottom */
+table.navBottom
+{
+   background-color:#cccccc;
+   font-size:10pt;
+}
+
+a.toggle, a.toggle:visited
+{
+   color:#ffffff;
+   font-weight:bold;
+}
+
+a.toggle:hover
+{
+   color:#CC9966;
+}
+/* Navigationbar bottom end */

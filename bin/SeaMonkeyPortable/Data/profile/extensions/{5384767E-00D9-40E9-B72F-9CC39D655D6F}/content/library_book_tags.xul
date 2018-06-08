@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<!DOCTYPE window SYSTEM "chrome://epubreader/locale/epubreader.dtd">
+
+<!--
+ * EPUBReader Firefox Extension: http://www.epubread.com/
+ * Copyright (C) 2009 Michael Volz (epubread@gmail.com)
+ *
+ * This program is free software: you can redistribute it under
+ * the terms of the attached license (license.txt).
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * attached license (license.txt) for more details.
+ *
+ * You should have received a copy of the license (license.txt)
+ * along with this program. If not, see <http://www.epubread.com/license/>.
+!-->
+
+<?xml-stylesheet href="chrome://global/skin/global.css" type="text/css"?>
+
+<dialog id="edit_tag"
+        title="&book_tag.tagging;"
+        xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+        ondialogaccept="return bookTag.save();"
+        ondialogcancel="return bookTag.cancel();"
+        onload="bookTag.init();">
+
+<script type="application/x-javascript" src="chrome://epubreader/content/library_book_tags.js"/>
+
+<listbox id="tag_list" width="300px" height="300px">
+</listbox>
+<hbox style="margin-top:5px;">
+   <spacer flex="1" />
+   <button dlgtype="accept"/>
+   <button dlgtype="cancel"/>
+   <spacer flex="1" />
+</hbox>
+</dialog>

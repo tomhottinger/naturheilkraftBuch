@@ -1,0 +1,139 @@
+Generated File. Do not edit.
+
+[HEADER]
+Version|0.18f|$
+Arch|x86-msvc|$
+
+[PLUGINS]
+nppdf32.dll|$
+C:\Program Files (x86)\Adobe\Acrobat Reader DC\Reader\AIR\nppdf32.dll|$
+17.9.20044.25828|$
+1491352698000|0|0|0|$
+Adobe PDF Plug-In For Firefox and Netscape 17.9.20044|$
+Adobe Acrobat|$
+7
+0|application/pdf|Acrobat Portable Document Format|pdf|$
+1|application/vnd.adobe.pdfxml|Adobe PDF in XML Format|pdfxml|$
+2|application/vnd.adobe.x-mars|Adobe PDF in XML Format|mars|$
+3|application/vnd.fdf|Acrobat Forms Data Format|fdf|$
+4|application/vnd.adobe.xfdf|XML Version of Acrobat Forms Data Format|xfdf|$
+5|application/vnd.adobe.xdp+xml| Acrobat XML Data Package|xdp|$
+6|application/vnd.adobe.xfd+xml|Adobe FormFlow99 Data File|xfd|$
+npGoogleUpdate3.dll|$
+C:\Program Files (x86)\Google\Update\1.3.33.17\npGoogleUpdate3.dll|$
+1.3.33.17|$
+1526520136955|0|0|0|$
+Google Update|$
+Google Update|$
+2
+0|application/x-vnd.google.update3webcontrol.3|||$
+1|application/x-vnd.google.oneclickctrl.9|||$
+NPAUTHZ.DLL|$
+C:\PROGRA~2\MICROS~1\Office14\NPAUTHZ.DLL|$
+14.0.4730.1010|$
+1263069738000|0|0|0|$
+Office Authorization plug-in for NPAPI browsers|$
+Microsoft Office 2010|$
+1
+0|application/x-msoffice14|14.0.4730.1010|*|$
+NPSPWRAP.DLL|$
+C:\PROGRA~2\MICROS~1\Office14\NPSPWRAP.DLL|$
+14.0.4761.1000|$
+1269458558000|0|0|0|$
+The plug-in allows you to open and edit files using Microsoft Office applications|$
+Microsoft Office 2010|$
+1
+0|application/x-sharepoint|SharePoint Plug-in for Firefox||$
+npctrl.dll|$
+c:\Program Files (x86)\Microsoft Silverlight\5.1.50907.0\npctrl.dll|$
+5.1.50907.0|$
+1493847268000|0|0|0|$
+5.1.50907.0|$
+Silverlight Plug-In|$
+2
+0|application/x-silverlight|npctrl|scr|$
+1|application/x-silverlight-2|||$
+npjp2.dll|$
+C:\Program Files (x86)\Java\jre1.8.0_121\bin\plugin2\npjp2.dll|$
+11.121.2.13|$
+1511175679351|0|0|0|$
+Next Generation Java Plug-in 11.121.2 for Mozilla browsers|$
+Java(TM) Platform SE 8 U121|$
+40
+0|application/x-java-applet|Java Applet||$
+1|application/x-java-bean|JavaBeans||$
+2|application/x-java-vm|||$
+3|application/x-java-applet;version=1.1.1|||$
+4|application/x-java-bean;version=1.1.1|||$
+5|application/x-java-applet;version=1.1|||$
+6|application/x-java-bean;version=1.1|||$
+7|application/x-java-applet;version=1.2|||$
+8|application/x-java-bean;version=1.2|||$
+9|application/x-java-applet;version=1.1.3|||$
+10|application/x-java-bean;version=1.1.3|||$
+11|application/x-java-applet;version=1.1.2|||$
+12|application/x-java-bean;version=1.1.2|||$
+13|application/x-java-applet;version=1.3|||$
+14|application/x-java-bean;version=1.3|||$
+15|application/x-java-applet;version=1.2.2|||$
+16|application/x-java-bean;version=1.2.2|||$
+17|application/x-java-applet;version=1.2.1|||$
+18|application/x-java-bean;version=1.2.1|||$
+19|application/x-java-applet;version=1.3.1|||$
+20|application/x-java-bean;version=1.3.1|||$
+21|application/x-java-applet;version=1.4|||$
+22|application/x-java-bean;version=1.4|||$
+23|application/x-java-applet;version=1.4.1|||$
+24|application/x-java-bean;version=1.4.1|||$
+25|application/x-java-applet;version=1.4.2|||$
+26|application/x-java-bean;version=1.4.2|||$
+27|application/x-java-applet;version=1.5|||$
+28|application/x-java-bean;version=1.5|||$
+29|application/x-java-applet;version=1.6|||$
+30|application/x-java-bean;version=1.6|||$
+31|application/x-java-applet;version=1.7|||$
+32|application/x-java-bean;version=1.7|||$
+33|application/x-java-applet;version=1.8|||$
+34|application/x-java-bean;version=1.8|||$
+35|application/x-java-applet;jpi-version=1.8.0_121|||$
+36|application/x-java-bean;jpi-version=1.8.0_121|||$
+37|application/x-java-vm-npruntime|||$
+38|application/x-java-applet;deploy=11.121.2|||$
+39|application/x-java-applet;javafx=8.0.121|||$
+npdeployJava1.dll|$
+C:\Program Files (x86)\Java\jre1.8.0_121\bin\dtplugin\npdeployJava1.dll|$
+11.121.2.13|$
+1511175679273|0|0|0|$
+NPRuntime Script Plug-in Library for Java(TM) Deploy|$
+Java Deployment Toolkit 8.0.1210.13|$
+1
+0|application/java-deployment-toolkit|||$
+npicaN.dll|$
+C:\Program Files (x86)\Citrix\ICA Client\npicaN.dll|$
+14.6.0.12010|$
+1478503308000|0|0|0|$
+Citrix Receiver Plugin (Win32)|$
+Citrix Receiver|$
+1
+0|application/x-ica|Citrix ICA|ica|$
+npURLInterceptorPlugin.dll|$
+C:\Program Files (x86)\Citrix\ICA Client\npURLInterceptorPlugin.dll|$
+14.6.0.12010|$
+1478504032000|0|0|0|$
+Citrix URL-Redirection Helper Plugin |$
+Citrix URL-Redirection Helper Plugin |$
+1
+0|application/npurlinterceptor|||$
+NPSWF32_29_0_0_171.dll|$
+C:\Windows\SysWOW64\Macromed\Flash\NPSWF32_29_0_0_171.dll|$
+29.0.0.171|$
+1526310848075|0|0|0|$
+Shockwave Flash 29.0 r0|$
+Shockwave Flash|$
+2
+0|application/x-shockwave-flash|Adobe Flash movie|swf|$
+1|application/futuresplash|FutureSplash movie|spl|$
+
+[INVALID]
+c:\Program Files (x86)\Microsoft Silverlight\5.1.50907.0\npctrlui.dll|$
+1493847268000|$

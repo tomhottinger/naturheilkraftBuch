@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!DOCTYPE window SYSTEM "chrome://epubreader/locale/epubreader.dtd">
+
+<overlay id="epubReaderOverlay" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+<script type="application/x-javascript" src="chrome://epubreader/content/overlay.js"></script>
+<stringbundleset>
+   <stringbundle id="epubreader_properties" src="chrome://epubreader/locale/epubreader.properties" />
+</stringbundleset>
+<menupopup id="taskPopup">
+   <menuitem label="&overlay.menu.epub_catalog;" class="menuitem-iconic" image="chrome://epubreader/skin/logo_menu.png" oncommand="epubOverlay.loadPage('catalog');"/>
+</menupopup>
+<toolbarpalette id="BrowserToolbarPalette">
+   <toolbarbutton id="epubreader-catalog-button" class="toolbarbutton-1" label="EPUBReader" tooltiptext="&overlay.menu.epub_catalog;" image="chrome://epubreader/skin/logo_menu.png" oncommand="epubOverlay.loadPage('catalog');" />
+</toolbarpalette>
+</overlay>

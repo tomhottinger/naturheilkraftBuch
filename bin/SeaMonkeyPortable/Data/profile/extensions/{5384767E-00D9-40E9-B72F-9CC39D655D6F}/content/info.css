@@ -1,0 +1,53 @@
+body
+{
+   margin:5mm;
+   background-color:#F4F8FD;
+   font-family:Arial,sans-serif;
+   font-size:10pt;
+   color:#777;
+}
+
+div#main
+{
+   width:75%;
+   border:0.5mm solid #E5F0FB;
+   background-color:#ffffff;
+}
+
+.header
+{
+   background-color: #f0fff0;
+   border-bottom:1px solid #E5F0FB;
+}
+
+strong
+{
+   color: #FB9233;
+   font-weight:bold;
+}
+
+ul
+{
+   padding-left:6.5mm;
+}
+
+li
+{
+   padding-bottom:3mm;
+   color: #FB9233;
+}
+
+li.last
+{
+   padding-bottom:0mm;
+}
+
+li .content
+{
+   color:#777;
+}
+
+a, a:visited
+{
+   color: #FB9233;
+}

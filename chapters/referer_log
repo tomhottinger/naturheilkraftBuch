@@ -1,0 +1,3 @@
+http://localhost:8080/ -> /favicon.ico
+http://localhost:8080/00_Chapter00.md -> /favicon.ico
+http://localhost:8080/00_Intro_00.md -> /favicon.ico

@@ -1,0 +1,44 @@
+pref("extensions.epubreader.logging", false);
+pref("extensions.epubreader.color.nav.background", "#fff8dc");
+pref("extensions.epubreader.color.nav.link.unvisited", "#0000EE");
+pref("extensions.epubreader.color.nav.link.visited", "#551A8B");
+pref("extensions.epubreader.color.nav.link.hover", "#CC9966");
+pref("extensions.epubreader.size.nav.link", "9pt");
+pref("extensions.epubreader.font.nav.link", "Arial");
+pref("extensions.epubreader.width.frame.left", 300);
+pref("extensions.epubreader.margin.content", "0px");
+pref("extensions.epubreader.padding.content", "20px");
+pref("extensions.epubreader.color.content.background", "parent");
+pref("extensions.epubreader.font.family.content", "parent");
+pref("extensions.epubreader.font.color.content", "parent");
+pref("extensions.epubreader.font.size.content", "13pt");
+pref("extensions.epubreader.count.column.content", "auto");
+pref("extensions.epubreader.width.column.content", "120mm");
+pref("extensions.epubreader.paging_dir.content", 1);
+pref("extensions.epubreader.line_height.content", "normal");
+pref("extensions.epubreader.js_enabled", false);
+pref("extensions.epubreader.plugins_enabled", false);
+pref("extensions.epubreader.catalog.load.timeout", 15000);
+pref("extensions.epubreader.width.catalog.tree", "290px");
+pref("extensions.epubreader.sync.last", 0);
+pref("extensions.epubreader.sync.delete_library.confirm", true);
+pref("extensions.epubreader.library_sort", 6);
+pref("extensions.epubreader.library_last_tag", -1);
+pref("extensions.epubreader.toolbar_locked", true);
+pref("extensions.epubreader.toolbar_hint_shown", false);
+pref("extensions.epubreader.paging_hint_shown", true);
+pref("extensions.epubreader.button_added", false);
+pref("extensions.epubreader.toc_collapsed", false);
+pref("extensions.epubreader.paging_click_enabled", true);
+pref("extensions.epubreader.update.last", 0);
+pref("extensions.epubreader.teaser_shown", false);
+pref("extensions.epubreader.teaser_final_shown", false);
+
+/*
+pref("javascript.options.showInConsole", true);
+pref("nglayout.debug.disable_xul_cache", true);
+pref("browser.dom.window.dump.enabled", true);
+pref("extensions.logging.enabled", true);
+pref("dom.report_all_js_exceptions", true);
+pref("devtools.errorconsole.enabled", true);
+*/

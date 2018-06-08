@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+<!DOCTYPE window SYSTEM "chrome://epubreader/locale/epubreader.dtd">
+
+<!--
+ * EPUBReader Firefox Extension: http://www.epubread.com/
+ * Copyright (C) 2009 Michael Volz (epubread@gmail.com)
+ *
+ * This program is free software: you can redistribute it under
+ * the terms of the attached license (license.txt).
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * attached license (license.txt) for more details.
+ *
+ * You should have received a copy of the license (license.txt)
+ * along with this program. If not, see <http://www.epubread.com/license/>.
+!-->
+
+<?xml-stylesheet href="chrome://epubreader/content/catalog.css" type="text/css"?>
+
+<window id="catalog" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul" xmlns:html="http://www.w3.org/1999/xhtml">
+<script language="javascript" type="text/javascript" src="chrome://epubreader/content/catalog.js"/>
+<script language="javascript" type="text/javascript" src="chrome://epubreader/content/opdsreader.js"/>
+
+<html:head>
+   <html:link rel="icon" href="chrome://epubreader/skin/logo_menu.png" /> 
+</html:head>
+
+<menupopup id="tag_popup" onpopupshowing="catalog.modifyTagMenu();">
+   <menuitem label="&catalog.add_tag;" oncommand="catalog.openTagDialog(false);" />
+   <menuitem id="tag_popup_change" label="&catalog.rename_tag;" oncommand="catalog.openTagDialog(true);" />
+   <menuitem id="tag_popup_delete" label="&catalog.delete_tag;" oncommand="catalog.deleteTag();" />
+</menupopup>
+
+<stack id="stack" flex="1">
+<hbox>
+   <vbox id="catalog_tree_box" style="padding-top:3px;">
+      <menulist id="catalog_menulist" oncommand="catalog.selectCatalog(this.selectedItem.value);">
+         <menupopup id="catalog_menulist_popup">
+            <menuitem id="catalog_menulist_private" />
+            <menuseparator />
+        </menupopup>
+      </menulist>
+      <textbox id="catalog_search_box" type="search" searchbutton="true" hidden="true" oncommand="catalog.search(this.value);" />
+      <tree id="catalog_tree" hidden="true" hidecolumnpicker="true" treelines="true" editable="true" flex="1" onclick="catalog.treeSelected(event);">
+         <treecols>
+            <treecol id="catalog_tree_col_display" primary="true" hideheader="true" width="100%" flex="1" />
+            <treecol id="catalog_tree_col_value" hideheader="true" hidden="true" width="50%" flex="1" />
+            <treecol id="catalog_tree_col_type" hideheader="true" hidden="true" flex="1" />
+            <treecol id="catalog_tree_col_loaded" hideheader="true" hidden="true" flex="1" />
+         </treecols>
+      </tree>
+      <listbox id="catalog_list" hidden="true" context="tag_popup" flex="1" style="padding-top:5px;" onclick="catalog.listSelected();" />
+   </vbox>
+   <splitter id="catalog_tree_splitter" collapse="before" resizebefore="closest" oncommand="catalog.saveTreeWidth();"><grippy id="catalog_tree_grippy" /></splitter>
+   <stack id="catalog_items_stack" flex="1">
+      <vbox flex="1">
+         <iframe style="height:35px; display:none;" id="catalog_nav_frame" type="content" src="chrome://epubreader/content/catalog_nav.html" />
+         <stack flex="1">
+            <iframe style="height:100%;" id="catalog_items_frame" type="content" src="chrome://epubreader/content/catalog_items.html" />
+            <iframe style="height:100%; display:none;" id="catalog_page_frame" type="content" />
+         </stack>
+      </vbox>
+      <iframe id="catalog_item_details_frame" type="content" src="chrome://epubreader/content/catalog_item_details.html" style="display:none;" />
+   </stack>
+</hbox>
+<hbox id="catalog_message_box" style="display:none;" flex="1">
+   <html:table id="catalog_message_table">
+      <html:tr><html:td style="text-align:center;"><description id="catalog_message_box_message" /></html:td></html:tr>
+   </html:table>
+</hbox>
+</stack>
+
+</window>

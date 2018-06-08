@@ -1,0 +1,52 @@
+%repeat-begin%
+<tr>
+   <td>
+      <table class="items">
+        <tr>
+           <td colspan="3" style="font-weight:bold;">%title_author%</td>
+        </tr>
+        <tr>
+           <td colspan="3">
+           <table class="summary">
+           <tr>
+              <td valign="top" class="thumbnail"><img src="%thumbnail%" style="display:%thumbnail_display%;" /></td>
+              <td valign="top">%summary%</td>
+           </tr>
+           </table></td>
+        </tr>
+        <tr>
+        </tr>
+        <tr>
+           <td style="width:20%; border-top:1px solid #E5F0FB; text-align:left; padding-top:3px; padding-bottom:0px;">
+              <span style="width:100%;"><a href="#" style="display:%excerpt_display%;" onclick="showExcerpt('%excerpt_url%');"><span class="excerpt">%excerpt_desc%</span></a></span>
+           </td>
+           <td style="border-top:1px solid #E5F0FB; text-align:center; padding-top:3px; padding-bottom:0px;">
+              <span style="padding-right:10px; display:%epub_display%;"><a href="%epub%" style="outline:none;"><img src="chrome://epubreader/skin/book_open.png" style="border:none; height:28px;" /></a></span>
+              <span style="padding-right:10px; display:%buy_display%;"><a href="#" style="outline:none;" onclick="showBuy('%buy_url%');"><img src="chrome://epubreader/skin/basket.png" style="border:none;" /></a></span>
+              <span style="padding-left:10px; display:%details_display%;"><a href="#" onclick="showDetails(%id%);" style="outline:none;"><img src="chrome://epubreader/skin/magnifier_26.png" style="border:none;" /></a></span>
+              <span style="padding-left:10px; display:%site_display%;"><a onclick="showSite('%site_url%');" style="outline:none;"><img src="chrome://epubreader/skin/magnifier_26.png" style="border:none;" /></a></span>
+           </td>
+           <td style="width:20%; border-top:1px solid #E5F0FB; text-align:center; padding-top:3px; padding-bottom:0px;">
+              <span style="width:100%;" />
+           </td>
+        </tr>
+      </table>
+   </td>
+</tr>
+%repeat-end%
+%separator-begin%
+<tr><td class="separator" colspan="2"></td></tr>
+%separator-end%
+%navigation-begin%
+<tr>
+   <td>
+      <table class="items" style="padding-top:0px;">
+         <tr>
+            <td style="text-align:center;">
+               <a href="javascript:navigate(nav_backwards);" style="outline:none;"><img src="%nav_backwards_src%" style="border:none; margin-right:10px;" /></a><a href="javascript:navigate(nav_forwards);" style="outline:none;"><img src="%nav_forwards_src%" style="border:none; margin-left:10px;" /></a>
+            </td>
+         </tr>
+      </table>
+   </td>
+</tr>
+%navigation-end%

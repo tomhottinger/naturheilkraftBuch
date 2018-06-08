@@ -1,0 +1,77 @@
+<!ENTITY overlay.menu.epub_catalog "Каталог ePub">
+
+<!ENTITY pref.title "EPUBReader Настройки">
+
+<!ENTITY pref.tab.content "Содержание">
+<!ENTITY pref.tab.content.defined_book "Как установлено в книге">
+<!ENTITY pref.tab.content.defined_user "Установлено пользователем">
+<!ENTITY pref.tab.content.color.background "Цвет фона">
+<!ENTITY pref.tab.content.family.font "Шрифт">
+<!ENTITY pref.tab.content.size.font "Размер шрифта">
+<!ENTITY pref.tab.content.color.font "Цвет шрифта">
+<!ENTITY pref.tab.content.margin "Ширина отступа">
+
+<!ENTITY pref.tab.toc "Оглавление">
+<!ENTITY pref.tab.toc.bg "Цвет фона">
+<!ENTITY pref.tab.toc.link_unvisited "Непосещенная ссылка">
+<!ENTITY pref.tab.toc.link_visited "Посещенная ссылка">
+<!ENTITY pref.tab.toc.link_hover "Курсор над ссылкой">
+<!ENTITY pref.tab.toc.font_family "Шрифт">
+<!ENTITY pref.tab.toc.font_size "Размер шрифта">
+<!ENTITY pref.tab.toc.preview "Предпросмотр">
+<!ENTITY pref.tab.toc.preview.unvisited "Непосещенная">
+<!ENTITY pref.tab.toc.preview.visited "Посещенная">
+<!ENTITY pref.tab.toc.reset_default "Настройки по умолчанию">
+
+<!ENTITY pref.tab.misc "Разное">
+<!ENTITY pref.tab.misc.calibre_url "Calibre OPDS Url">
+
+<!ENTITY pref.ok "Ok">
+<!ENTITY pref.ok_access "O">
+<!ENTITY pref.cancel "Отмена">
+<!ENTITY pref.cancel_access "T">
+
+<!ENTITY reader.preferences "Настройки">
+<!ENTITY reader.help "Помощь">
+<!ENTITY reader.catalog "Каталог ePub/K">
+<!ENTITY reader.save "Сохранить копию/S">
+<!ENTITY reader.bookmark "Установить закладку/D">
+<!ENTITY reader.font_smaller "Уменьшить шрифт/-">
+<!ENTITY reader.font_larger "Увеличить шрифт/+">
+
+<!ENTITY pref.tab.misc.js_enabled "Javascript enabled">
+<!ENTITY reader.nav_backwards "Previous chapter">
+<!ENTITY reader.nav_forwards "Next chapter">
+<!ENTITY reader.toolbar_locked "Always show toolbar">
+<!ENTITY reader.keyboard_shortcuts "Help keyboard shortcuts">
+
+<!ENTITY pref.tab.content.column.min_width "Minimum width">
+<!ENTITY pref.tab.misc.plugins_enabled "Plugins enabled">
+
+<!ENTITY pref.tab.content.style "Reading style">
+<!ENTITY pref.tab.content.style.book "Book (Paging &#8592;&#8594; / &#8805; 1 column)">
+<!ENTITY pref.tab.content.style.website "Website (Paging &#8593;&#8595; / 1 column)">
+<!ENTITY pref.tab.content.column "Column count">
+<!ENTITY pref.tab.content.column.single "One column">
+<!ENTITY pref.tab.content.column.auto "Automatic">
+<!ENTITY pref.tab.content.paging "Paging">
+<!ENTITY pref.tab.content.paging.vertical "Vertical">
+<!ENTITY pref.tab.content.paging.horizontal "Horizontal">
+<!ENTITY reader.nav_page_backwards "Previous page/&lt;-">
+<!ENTITY reader.nav_page_forwards "Next page/-&gt;">
+<!ENTITY reader.reading_style "Change reading style">
+
+
+<!ENTITY pref.tab.misc.paging_click_enabled "Page by click">
+<!ENTITY pref.tab.content.default "Default">
+<!ENTITY pref.tab.content.line_height "Line height">
+<!ENTITY catalog.add_tag "Add">
+<!ENTITY catalog.rename_tag "Rename">
+<!ENTITY catalog.delete_tag "Delete">
+<!ENTITY tag.name "Tag">
+<!ENTITY book_tag.tagging "Tagging">
+
+
+
+
+

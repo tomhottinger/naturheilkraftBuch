@@ -1,0 +1,14 @@
+%repeat-begin%
+<html:tr>
+   <html:td class="name" style="text-align:left; direction:%direction%;">%name%</html:td>
+   <html:td style="text-align:left; direction:%direction%;">%data%</html:td>
+</html:tr>
+%repeat-end%
+%no-data-begin%
+<html:tr>
+   <html:td style="padding:20px 10px 20px 10px; vertical-align:middle;">%message%</html:td>
+</html:tr>
+%no-data-end%
+<html:tr>
+   <html:td colspan="2" align="right"><html:a onclick="library.closeMetadata();" style="outline:none;"><html:img src="chrome://epubreader/skin/close.png" style="border:none;" /></html:a></html:td>
+</html:tr>

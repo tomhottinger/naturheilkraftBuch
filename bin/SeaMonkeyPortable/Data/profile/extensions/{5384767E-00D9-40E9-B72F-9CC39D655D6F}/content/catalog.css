@@ -1,0 +1,212 @@
+tree, listbox, menulist, textbox
+{
+   font-size:10pt;
+   font-family:arial;
+}
+
+#catalog_items_stack
+{
+   background-color:#F4F8FD;
+   margin:0px;
+}
+
+#catalog_page_frame
+{
+   background-color:#F4F8FD;
+}
+
+#catalog_table
+{
+   margin-top:10px;
+   margin-left:auto;
+   margin-right:auto;
+   width:100%;
+}
+
+.excerpt
+{
+   font-size:10pt;
+   background-color:#F4F8FD;
+   border:2px solid #E5F0FB;
+   font-weight:bold;
+   padding:3px 7px 3px 7px;
+   margin:0px;
+   height:28px;
+}
+
+table.items
+{
+   width:95%;
+   font-family:Arial,sans-serif;
+   font-size:10pt;
+   color:#777;
+   background-color:#ffffff;
+   border:2px solid #E5F0FB;
+   margin-bottom:10px;
+   margin-left:auto;
+   margin-right:auto;
+   padding:7px 7px 0px 7px;
+}
+
+table.items td
+{
+   padding:5px;
+}
+
+table.items td.separator
+{
+   border:1px solid #F4F8FD;
+   background-color:#F4F8FD;
+   height:10px;
+}
+
+table.summary
+{
+   font-family:Arial,sans-serif;
+   font-size:10pt;
+   color:#777;
+}
+
+table.summary td
+{
+   padding:0px;
+}
+
+table.summary td.thumbnail
+{
+   padding-right:15px;
+}
+
+table.summary td.thumbnail img
+{
+   max-width:75px;
+   max-height:95px;
+}
+
+table.details
+{
+   width:650px;
+   font-family:Arial,sans-serif;
+   font-size:10pt;
+   color:#777;
+   border:4px solid #E5F0FB;
+   background-color:#fff8dc;
+   padding:10px 10px 0px 10px;
+}
+
+table.details td
+{
+   padding:5px;
+}
+
+table.details td.cover
+{
+   padding-right:15px;
+}
+
+table.details td.cover img
+{
+   max-width:210px;
+   max-height:310px;
+   float:left;
+   margin-right:10px;
+}
+
+#catalog_message_table
+{
+   width:250px;
+   height:100px;
+   font-family:Arial,sans-serif;
+   font-size:10pt;
+   color:#777;
+   border:2px solid #E5F0FB;
+   padding:10px;
+}
+
+#catalog_message_box_message
+{
+   width:220px;
+}
+
+table.info
+{
+   background-color:#fff8dc;
+}
+
+table.error
+{
+   background-color:#ffe4e1;
+}
+
+a
+{
+   font-family:arial;
+   text-decoration:none;
+}
+
+a, a:visited, a:active, a:link
+{
+/*   color:#993333; */
+	color: #FB9233;
+}
+
+a:hover
+{
+	color: #93C600;
+/*   color:#CC9966; */
+}
+
+/* catalog_nav */
+div#catalog_nav
+{
+   background-color:#fff8dc;
+   border-bottom:2px solid #E5F0FB;
+   padding-top:5px;
+   padding-bottom:9px;
+   text-align:center;
+   font-family:arial;
+   font-size:10pt;
+   font-weight:bold;
+}
+
+div#catalog_nav span
+{
+   vertical-align:middle;
+   margin-right:10px;
+}
+
+a.button
+{
+   background-repeat: no-repeat;
+   background-position: top left;
+   -moz-border-radius: 5px;
+   border-radius: 5px;
+   -moz-box-shadow: 0 1px 2px rgba(0,0,0,0.4);
+   box-shadow: 0 1px 2px rgba(0,0,0,0.4);
+   border: none;
+   text-align: center;
+   text-decoration: none;
+   font-weight: bold;
+   font-size: 11px;
+   color: white !important;
+   cursor: pointer;
+   padding-left:10px;
+   padding-right:10px;
+   padding-top:3px;
+   padding-bottom:3px;
+}
+
+a.button:hover
+{
+	background-position: left -26px;
+}
+
+a.grey
+{
+   background-image: url("chrome://epubreader/skin/catalog_button_grey.gif");
+}
+
+a.green
+{
+   background-image: url("chrome://epubreader/skin/catalog_button_green.gif");
+}

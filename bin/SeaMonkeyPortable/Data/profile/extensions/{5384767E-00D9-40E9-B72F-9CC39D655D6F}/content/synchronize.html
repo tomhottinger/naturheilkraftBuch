@@ -1,0 +1,22 @@
+<html>
+
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="chrome://epubreader/content/synchronizer.css">
+</head>
+
+<body>
+<script language="javascript" type="text/javascript;version=1.8" src="chrome://epubreader/content/synchronizer.js"></script>
+
+<center>
+
+<div style="margin-top:20px; margin-right:5px; display:inline-block; vertical-align:top;">
+   <div style="margin-bottom:5px; text-align:left;"><span style="display:inline-block; width:40px; vertical-align:bottom;"><a id="new_sync_dir" href="#" onclick="synchronizer.getSyncDir(true);"><img src="chrome://epubreader/skin/folder_new.png" style="margin-right:5px; border:none;"></a></span><span><a href="#" onclick="synchronizer.synchronizeEpubs();"><span id="synchronize" /></a></span></div>
+   <div style="margin-bottom:5px; text-align:left;"><span style="display:inline-block; width:40px;"></span><span><a href="#" onclick="synchronizer.exportOnlyEpubs();"><span id="export" /></a></span></div>
+   <div style="text-align:left;"><span style="display:inline-block; width:40px;"></span><span><a href="#" onclick="synchronizer.importOnlyEpubs();"><span id="import" /></a></span></div>
+</div>
+<div id="message"></div>
+<div style="display:inline-block; width:15%;"></div>
+
+</body>
+</html>

@@ -1,0 +1,167 @@
+@-moz-document url-prefix(file:///C:/Daten/git/NATURH~1/bin/SeaMonkeyPortable/Data/profile/epub)
+{
+   html
+   {
+      /*background-color:%contentBackgroundColor% !important;*/
+      /*-moz-column-width:%contentColumnWidth% !important;*/
+      /*column-width:%contentColumnWidth% !important;*/
+      -moz-column-gap:10px !important;
+      column-gap:10px !important;
+      -moz-column-count:1 !important;
+      column-count:1 !important;
+      -moz-column-fill:balance !important;
+      column-fill:balance !important;
+      height:auto !important;
+      margin-top:6px !important;
+      margin-bottom:6px !important;
+   }
+
+   body
+   {
+      margin-left:0px !important;
+      margin-right:0px !important;
+      padding-left:20px !important;
+      padding-right:20px !important;
+      font-size:13pt !important;
+      /*font-family:%contentFontFamily% !important;*/
+      /*color:%contentFontColor% !important;*/
+      /*background-color:%contentBackgroundColor% !important;*/
+      /*text-align:justify !important;*/
+   }
+
+   div, span, p, ul, li
+   {
+      /*background-color:%contentBackgroundColor% !important;*/
+      font-size:13pt !important;
+      /*font-family:%contentFontFamily% !important;*/
+      /*color:%contentFontColor% !important;*/
+      line-height:normal !important;
+   }
+
+   h1, h2, h3, h4, h5, h6
+   {
+      /*background-color:%contentBackgroundColor% !important;*/
+      /*font-family:%contentFontFamily% !important;*/
+      /*color:%contentFontColor% !important;*/
+   }
+
+   img
+   {
+      max-width:100%;
+   }
+}
+
+/* TOC */
+html.navLeft, html.navLeft div, html.navLeft span, html.navLeft p
+{
+   background-color:#fff8dc !important;
+   font-family:Arial !important;
+   -moz-column-count:1 !important;
+   column-count:1 !important;
+   line-height:normal !important;
+}
+
+body.navLeft
+{
+   margin-left:0px !important;
+   margin-right:0px !important;
+   padding-left:0px !important;
+   padding-right:0px !important;
+   font-family:Arial !important;
+   background-color:#fff8dc !important;
+}
+
+table.navPoint
+{
+   padding:0px !important;
+   padding-left:3px !important;
+   font-size:9pt !important;
+}
+
+table.navPoint a
+{
+   color:#0000EE !important;
+   text-decoration:none !important;
+}
+
+table.navPoint a:visited
+{
+   color:#551A8B !important;
+}
+
+table.navPoint a:hover
+{
+   color:#CC9966 !important;
+}
+
+#navError
+{
+   padding:0px 0px 0px 3px;
+   margin:0px;
+   list-style:none;
+   color:#CC9966;
+   font-size:10pt;
+}
+
+#navError:hover
+{
+   color:#0000EE;
+   cursor:pointer;
+}
+
+#navError li ul
+{
+   display:none;
+   padding:10px;
+   margin-right:5px;
+   list-style: none;
+   position:absolute;
+   background-color:#ffffff;
+   border:2px solid #E5F0FB;
+   color:#777;
+}
+
+#navError li:hover ul
+{
+   display:block;
+}
+
+/*
+#menu li ul li
+{
+   border-bottom:1px solid #0079b2;
+   width:100%;
+}
+*/
+
+
+
+.topLevel
+{
+   font-size:9pt !important;
+}
+
+.childLevel
+{
+   font-size:90% !important;
+}
+/* TOC end */
+
+/* Navigationbar bottom */
+table.navBottom
+{
+   background-color:#cccccc;
+   font-size:10pt;
+}
+
+a.toggle, a.toggle:visited
+{
+   color:#ffffff;
+   font-weight:bold;
+}
+
+a.toggle:hover
+{
+   color:#CC9966;
+}
+/* Navigationbar bottom end */

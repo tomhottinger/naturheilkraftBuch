@@ -1,0 +1,24 @@
+%repeat-begin%
+<html:tr>
+   <html:td colspan="2" style="padding-bottom:10px;">
+      <html:table cellspacing="0px" width="100%">
+      <html:tr>
+         <html:td align="center" style="direction:%direction%;"><html:b>%paging_hint_title%</html:b></html:td>
+         <html:td align="right" valign="top" style="direction:%direction%;"><html:img src="chrome://epubreader/skin/close_notification.png" onmouseover="this.style.cursor='pointer';" onclick="utils.closeNotification();" /></html:td>
+      </html:tr>
+      </html:table>
+   </html:td>
+</html:tr>
+<html:tr>
+   <html:td align="left" style="direction:%direction%;">%paging_hint_general%</html:td>
+</html:tr>
+<html:tr>
+   <html:td align="left" style="direction:%direction%; padding-top:7px;">%paging_hint_paging%</html:td>
+</html:tr>
+<html:tr>
+   <html:td align="left" style="direction:%direction%; padding-top:7px; padding-bottom:10px;">%paging_hint_preferences%</html:td>
+</html:tr>
+<html:tr>
+   <html:td align="center" style="direction:%direction%; padding:5px;"><html:a style="padding-left:10px; padding-right:10px;" href="javascript:utils.closeNotification();">%paging_hint_no_change%</html:a><html:a style="padding-right:10px; padding-right:10px;" href="javascript:utils.toggleReadingStyle(); utils.closeNotification();"><html:b>%paging_hint_change%</html:b></html:a></html:td>
+</html:tr>
+%repeat-end%

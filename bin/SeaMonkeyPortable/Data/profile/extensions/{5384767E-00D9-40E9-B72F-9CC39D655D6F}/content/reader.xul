@@ -1,0 +1,96 @@
+<?xml version="1.0"?>
+<!DOCTYPE window SYSTEM "chrome://epubreader/locale/epubreader.dtd">
+
+<!--
+ * EPUBReader Firefox Extension: http://www.epubread.com/
+ * Copyright (C) 2009 Michael Volz (epubread@gmail.com)
+ *
+ * This program is free software: you can redistribute it under
+ * the terms of the attached license (license.txt).
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * attached license (license.txt) for more details.
+ *
+ * You should have received a copy of the license (license.txt)
+ * along with this program. If not, see <http://www.epubread.com/license/>.
+!-->
+
+<?xml-stylesheet href="chrome://epubreader/content/reader.css" type="text/css"?>
+
+<window id="epubreader" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul" xmlns:html="http://www.w3.org/1999/xhtml">
+<script language="javascript" type="text/javascript" src="chrome://epubreader/content/reader.js"/>
+<script language="javascript" type="text/javascript" src="chrome://epubreader/content/picker.js"/>
+
+<html:head>
+   <html:link rel="icon" href="chrome://epubreader/skin/logo_menu.png" />
+</html:head>
+
+<menupopup id="toolbar_popup">
+   <menuitem id="toolbar_locked" label="&reader.toolbar_locked;" type="checkbox" oncommand="utils.lockToolbar(event);" />
+   <menuitem label="&reader.keyboard_shortcuts;" oncommand="utils.showToolbarNotification();" />
+</menupopup>
+
+<hbox flex="1">
+   <vbox id="nav_frame_box">
+      <iframe id="nav_frame" type="content" src="" flex="1"/>
+      <box id="toolbar_box" style="background-color:-moz-Dialog;">
+         <toolbar style="padding-left:5px; margin-top:2px; margin-bottom:2px;" flex="1">
+            <toolbarbutton image="chrome://epubreader/skin/preferences.png" style="width:30px; height:33px; padding-top:4px; padding-left:5px;" tooltiptext="&reader.preferences;" oncommand="window.openDialog('chrome://epubreader/content/prefs/prefs.xul', 'prefs', 'chrome,resizable', document, window);" />
+            <toolbarbutton image="chrome://epubreader/skin/faq.png" style="width:30px; height:33px; padding-top:4px; padding-left:7px;" tooltiptext="&reader.help;" oncommand="utils.openPage('faq');" />
+         </toolbar>
+      </box>
+   </vbox>
+   <splitter id="epub_splitter" collapse="before" oncommand="utils.saveWidth();"><grippy id="epub_grippy" /></splitter>
+   <stack flex="1">
+      <vbox flex="1">
+         <box id="frame" flex="1"><iframe id="content_frame" name="content" type="content" src="" flex="1" /></box>
+         <box id="scrollbar_helper" hidden="true" style="height:1px; background-color:transparent;" />
+         <stack id="navigationbar" hidden="true" style="background-color:-moz-Dialog;" onmouseout="utils.toggleNavigationbar(event);">
+            <vbox id="progress_meter_box">
+               <hbox style="height:3px; border-top:1px solid -moz-Dialog;">
+                  <box id="progress_meter" style="background-color:black; opacity:0.20;" />
+                  <spacer id="progress_meter_flex" style="background-color:white; opacity:0.5;" />
+               </hbox>
+               <spacer flex="1" />
+            </vbox>
+            <box context="toolbar_popup" style="background-color:transparent;">
+               <toolbar style="padding-left:5px; padding-right:7px; margin-top:2px; margin-bottom:2px;" flex="1">
+                  <hbox flex="1">
+                     <toolbarbutton id="library" image="chrome://epubreader/skin/library.png" style="width:30px; height:33px; padding-left:6px;" tooltiptext="&reader.catalog;" oncommand="utils.openPage('catalog');" onmouseout="utils.toggleNavigationbar(event);" />
+                     <toolbarbutton id="save" image="chrome://epubreader/skin/save_button.png" style="width:30px; height:33px; padding-left:5px;" tooltiptext="&reader.save;" oncommand="utils.save();" onmouseout="utils.toggleNavigationbar(event);" />
+                     <toolbarbutton id="bookmark" image="chrome://epubreader/skin/bookmark.png" style="width:30px; height:33px; padding-left:4px" tooltiptext="&reader.bookmark;" oncommand="utils.setBookmark();" onmouseout="utils.toggleNavigationbar(event);" />
+                  </hbox>
+                  <spacer flex="1" />
+                  <hbox flex="1">
+                     <spacer flex="1" />
+                        <toolbarbutton id="nav_backwards_button" style="width:33px; height:33px; padding:0px;" tooltiptext="&reader.nav_backwards;" oncommand="utils.simulateClick(document.getElementById('nav_backwards'));" onmouseout="utils.toggleNavigationbar(event);"><html:div><html:a id="nav_backwards" href="" target="content" style="outline:none;" onclick="reader.navigateSpine(reader.nav_backwards);"><html:img id="nav_backwards_img" src="chrome://epubreader/skin/nav_backwards_disabled.png" style="border:none; vertical-align:middle;" /></html:a></html:div></toolbarbutton>
+                        <toolbarbutton id="nav_page_backwards_button" style="width:33px; height:33px; padding:0px;" tooltiptext="&reader.nav_page_backwards;" oncommand="reader.page(reader.page_backwards);" onmouseout="utils.toggleNavigationbar(event);"><html:div><html:img id="nav_page_backwards_img" src="chrome://epubreader/skin/nav_page_backwards_disabled.png" style="border:none; vertical-align:middle;" /></html:div></toolbarbutton>
+                        <toolbarbutton id="nav_page_forwards_button" style="width:33px; height:33px; padding:0px;" tooltiptext="&reader.nav_page_forwards;" oncommand="reader.page(reader.page_forwards);" onmouseout="utils.toggleNavigationbar(event);"><html:div><html:img id="nav_page_forwards_img" src="chrome://epubreader/skin/nav_page_forwards_disabled.png" style="border:none; vertical-align:middle;" /></html:div></toolbarbutton>
+                        <toolbarbutton id="nav_forwards_button" style="width:33px; height:33px; padding:0px;" tooltiptext="&reader.nav_forwards;" oncommand="utils.simulateClick(document.getElementById('nav_forwards'));" onmouseout="utils.toggleNavigationbar(event);"><html:div><html:a id="nav_forwards" href="" target="content" style="outline:none;" onclick="reader.navigateSpine(reader.nav_forwards);"><html:img id="nav_forwards_img" src="chrome://epubreader/skin/nav_forwards_disabled.png" style="border:none; vertical-align:middle;" /></html:a></html:div></toolbarbutton>
+                     <spacer flex="1" />
+                  </hbox>
+                  <spacer flex="1" />
+                  <hbox flex="1">
+                     <spacer flex="1" />
+                     <spacer id="reading_style_spacer" hidden="true" width="30px" />
+                     <toolbarbutton id="reading_style" image="chrome://epubreader/skin/reading_style.png" style="width:30px; height:33px; margin-right:2px; padding-left:6px;" tooltiptext="&reader.reading_style;" oncommand="utils.toggleReadingStyle();" onmouseout="utils.toggleNavigationbar(event);" />
+                     <toolbarbutton id="font_size_less" image="chrome://epubreader/skin/font_size_less.png" style="width:30px; height:33px; margin-right:2px; padding-left:4px;" tooltiptext="&reader.font_smaller;" oncommand="utils.zoomFont(utils.zoom_smaller);" onmouseout="utils.toggleNavigationbar(event);" />
+                     <toolbarbutton id="font_size_more" image="chrome://epubreader/skin/font_size_more.png" style="width:30px; height:33px; margin-left:2px; padding-left:4px;" tooltiptext="&reader.font_larger;" oncommand="utils.zoomFont(utils.zoom_larger);" onmouseout="utils.toggleNavigationbar(event);" />
+                  </hbox>
+               </toolbar>
+            </box>
+         </stack>
+         <box id="navigationbar_toggle" hidden="true" style="background-color:-moz-Dialog; height:7px;" onmouseover="this.hidden=true; document.getElementById('navigationbar').hidden=false;">
+            <box id="progress_meter_toggle_box" flex="1">
+               <box id="progress_meter_toggle" style="background-color:black; opacity:0.18;" />
+               <spacer id="progress_meter_toggle_flex" />
+            </box>
+         </box>
+      </vbox>
+      <box id="notification_box" align="center" pack="center" hidden="true"><html:table id="notification" style="padding:10px;" /></box>
+   </stack>
+</hbox>
+
+</window>

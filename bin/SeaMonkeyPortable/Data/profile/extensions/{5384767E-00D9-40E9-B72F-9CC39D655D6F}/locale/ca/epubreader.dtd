@@ -1,0 +1,72 @@
+<!ENTITY overlay.menu.epub_catalog "Catàleg ePUB">
+
+<!ENTITY pref.title "EPUBReader Preferències">
+
+<!ENTITY pref.tab.content "Contingut">
+<!ENTITY pref.tab.content.defined_book "Definit en el llibre">
+<!ENTITY pref.tab.content.defined_user "Definit per l'usuari">
+<!ENTITY pref.tab.content.color.background "Color de fons">
+<!ENTITY pref.tab.content.family.font "Tipus de lletra">
+<!ENTITY pref.tab.content.size.font "Tamany del text">
+<!ENTITY pref.tab.content.color.font "Color del text">
+<!ENTITY pref.tab.content.margin "Amplada del marge">
+
+<!ENTITY pref.tab.toc "Taula de Matèries">
+<!ENTITY pref.tab.toc.bg "Color de fons">
+<!ENTITY pref.tab.toc.link_unvisited "Enllaç no visitat">
+<!ENTITY pref.tab.toc.link_visited "Enllaç visitat">
+<!ENTITY pref.tab.toc.link_hover "Enllaç sota el punter">
+<!ENTITY pref.tab.toc.font_family "Tipus de lletra">
+<!ENTITY pref.tab.toc.font_size "Tamany del text">
+<!ENTITY pref.tab.toc.preview "Prèvia">
+<!ENTITY pref.tab.toc.preview.unvisited "No visitat">
+<!ENTITY pref.tab.toc.preview.visited "Visitat">
+<!ENTITY pref.tab.toc.reset_default "Tornar als valors inicials">
+
+<!ENTITY pref.tab.misc "Divers">
+<!ENTITY pref.tab.misc.calibre_url "Calibre OPDS Url">
+
+<!ENTITY pref.ok "d'Acord">
+<!ENTITY pref.ok_access "O">
+<!ENTITY pref.cancel "Anul·lar">
+<!ENTITY pref.cancel_access "C">
+
+<!ENTITY reader.preferences "Preferències">
+<!ENTITY reader.help "Ajuda">
+<!ENTITY reader.catalog "Catàleg ePUB/C">
+<!ENTITY reader.save "Desar còpia/S">
+<!ENTITY reader.bookmark "Establir una marca de pàgina/D">
+<!ENTITY reader.font_smaller "Disminuir Tipus de Lletra/-">
+<!ENTITY reader.font_larger "Incrementar Tipus de Lletra/+">
+
+<!ENTITY pref.tab.misc.js_enabled "Javascript activat">
+<!ENTITY reader.nav_backwards "Capítol previ">
+<!ENTITY reader.nav_forwards "Proper capítol">
+<!ENTITY reader.toolbar_locked "Mostrar sempre la barra d'eines">
+<!ENTITY reader.keyboard_shortcuts "Rebre ajuda en les dreceres de teclat">
+
+<!ENTITY pref.tab.content.column.min_width "Minimum width">
+<!ENTITY pref.tab.misc.plugins_enabled "Plugins activat">
+
+<!ENTITY pref.tab.content.style "Estil de lectura">
+<!ENTITY pref.tab.content.style.book "Llibre (﻿Paginació &#8592;&#8594; / &#8805; 1 Columna)">
+<!ENTITY pref.tab.content.style.website "Lloc d'Internet (﻿Paginació &#8593;&#8595; / 1 Columna)">
+<!ENTITY pref.tab.content.column "Nombre de Columnes">
+<!ENTITY pref.tab.content.column.single "Una columna">
+<!ENTITY pref.tab.content.column.auto "Automàtic">
+<!ENTITY pref.tab.content.paging "﻿Paginació">
+<!ENTITY pref.tab.content.paging.vertical "Vertical">
+<!ENTITY pref.tab.content.paging.horizontal "Horitzontal">
+<!ENTITY reader.nav_page_backwards "Pàgina precedent/&lt;-">
+<!ENTITY reader.nav_page_forwards "Pàgina següent/-&gt;">
+<!ENTITY reader.reading_style "Bescanviar estil de lectura">
+
+
+<!ENTITY pref.tab.misc.paging_click_enabled "Pàgina per clic">
+<!ENTITY pref.tab.content.default "Estàndard">
+<!ENTITY pref.tab.content.line_height "Alçada de línia">
+<!ENTITY catalog.add_tag "Afegir">
+<!ENTITY catalog.rename_tag "Rebatejar">
+<!ENTITY catalog.delete_tag "Esborrar">
+<!ENTITY tag.name "Etiqueta">
+<!ENTITY book_tag.tagging "Assenyalar">

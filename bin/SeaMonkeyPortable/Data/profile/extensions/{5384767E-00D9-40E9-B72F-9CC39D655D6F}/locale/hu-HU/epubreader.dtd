@@ -1,0 +1,73 @@
+<!ENTITY overlay.menu.epub_catalog "ePub Katalógus">
+
+<!ENTITY pref.title "EPUBReader Preferenciák">
+
+<!ENTITY pref.tab.content "Tartalom">
+<!ENTITY pref.tab.content.defined_book "A könyv definiciója szerint">
+<!ENTITY pref.tab.content.defined_user "Felhasználói definició">
+<!ENTITY pref.tab.content.color.background "Háttér szin">
+<!ENTITY pref.tab.content.family.font "Betű tipus">
+<!ENTITY pref.tab.content.size.font "Betű méret">
+<!ENTITY pref.tab.content.color.font "Betű szin">
+<!ENTITY pref.tab.content.margin "Margó szélesség">
+
+<!ENTITY pref.tab.toc "Tartalomjegyzék">
+<!ENTITY pref.tab.toc.bg "Háttér szin">
+<!ENTITY pref.tab.toc.link_unvisited "Nem használt link">
+<!ENTITY pref.tab.toc.link_visited "Meglátogatott link">
+<!ENTITY pref.tab.toc.link_hover "Link fölé egerezés">
+<!ENTITY pref.tab.toc.font_family "Betű tipus">
+<!ENTITY pref.tab.toc.font_size "Betű méret">
+<!ENTITY pref.tab.toc.preview "Bemutató">
+<!ENTITY pref.tab.toc.preview.unvisited "Nem használt">
+<!ENTITY pref.tab.toc.preview.visited "Meglátogatott">
+<!ENTITY pref.tab.toc.reset_default "Visszaállitás kiindulási helyzetbe">
+
+<!ENTITY pref.tab.misc "Vegyes">
+<!ENTITY pref.tab.misc.calibre_url "Calibre OPDS Url">
+
+<!ENTITY pref.ok "Rendben">
+<!ENTITY pref.ok_access "R">
+<!ENTITY pref.cancel "Törlés">
+<!ENTITY pref.cancel_access "T">
+
+<!ENTITY reader.preferences "Preferenciák">
+<!ENTITY reader.help "Segitség">
+<!ENTITY reader.catalog "ePub Katalógus/K">
+<!ENTITY reader.save "Elmentés/S">
+<!ENTITY reader.bookmark "Állits be a könyvjelzőt/D">
+<!ENTITY reader.font_smaller "Betűnagyság csökkentése/-">
+<!ENTITY reader.font_larger "Betűnagyság növelése/+">
+
+<!ENTITY pref.tab.misc.js_enabled "Javascript aktiv">
+<!ENTITY reader.nav_backwards "Megelőző Fejezet">
+<!ENTITY reader.nav_forwards "Következő Fejezet">
+<!ENTITY reader.toolbar_locked "Toolbar mindig látható">
+<!ENTITY reader.keyboard_shortcuts "Segitség billentyüzet">
+
+<!ENTITY pref.tab.content.column.min_width "Minimum width">
+<!ENTITY pref.tab.misc.plugins_enabled "Plugins aktiv">
+
+<!ENTITY pref.tab.content.style "Reading style">
+<!ENTITY pref.tab.content.style.book "Book (Paging &#8592;&#8594; / &#8805; 1 column)">
+<!ENTITY pref.tab.content.style.website "Website (Paging &#8593;&#8595; / 1 column)">
+<!ENTITY pref.tab.content.column "Column count">
+<!ENTITY pref.tab.content.column.single "One column">
+<!ENTITY pref.tab.content.column.auto "Automatic">
+<!ENTITY pref.tab.content.paging "Paging">
+<!ENTITY pref.tab.content.paging.vertical "Vertical">
+<!ENTITY pref.tab.content.paging.horizontal "Horizontal">
+<!ENTITY reader.nav_page_backwards "Previous page/&lt;-">
+<!ENTITY reader.nav_page_forwards "Next page/-&gt;">
+<!ENTITY reader.reading_style "Change reading style">
+
+
+<!ENTITY pref.tab.misc.paging_click_enabled "Page by click">
+<!ENTITY pref.tab.content.default "Default">
+<!ENTITY pref.tab.content.line_height "Line height">
+<!ENTITY catalog.add_tag "Add">
+<!ENTITY catalog.rename_tag "Rename">
+<!ENTITY catalog.delete_tag "Delete">
+<!ENTITY tag.name "Tag">
+<!ENTITY book_tag.tagging "Tagging">
+
