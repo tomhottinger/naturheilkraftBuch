@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package version="3.0" xmlns="http://www.idpf.org/2007/opf" unique-identifier="epub-id-1" prefix="ibooks: http://vocabulary.itunes.apple.com/rdf/ibooks/vocabulary-extensions-1.0/">
+  <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+    <dc:identifier id="epub-id-1">urn:uuid:94e6e0fb-5294-455c-bcd1-dff03f103748</dc:identifier>
+    <dc:title id="epub-title-1">naturheilkraft</dc:title>
+    <dc:date id="epub-date">2018-08-01</dc:date>
+    <dc:language>de-CH</dc:language>
+    <dc:creator id="epub-creator-1">Thomas C. Hottinger</dc:creator>
+    <meta refines="#epub-creator-1" property="file-as">Hottinger, Thomas Conrad</meta>
+    <meta refines="#epub-creator-1" property="role" scheme="marc:relators">aut</meta>
+    <dc:publisher>naturheilkraft.ch</dc:publisher>
+    <dc:rights>Copyright © 2018 Thomas C. Hottinger</dc:rights>
+    <meta name="cover" content="cover_png" />
+    <meta property="dcterms:modified">2018-06-20T11:23:15Z</meta>
+  </metadata>
+  <manifest>
+    <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml" />
+    <item id="nav" href="nav.xhtml" media-type="application/xhtml+xml" properties="nav" />
+    <item id="style" href="styles/stylesheet1.css" media-type="text/css" />
+    <item id="cover_xhtml" href="text/cover.xhtml" media-type="application/xhtml+xml" />
+    <item id="title_page_xhtml" href="text/title_page.xhtml" media-type="application/xhtml+xml" />
+    <item id="ch001_xhtml" href="text/ch001.xhtml" media-type="application/xhtml+xml" />
+    <item id="ch002_xhtml" href="text/ch002.xhtml" media-type="application/xhtml+xml" />
+    <item id="ch003_xhtml" href="text/ch003.xhtml" media-type="application/xhtml+xml" />
+    <item id="ch004_xhtml" href="text/ch004.xhtml" media-type="application/xhtml+xml" />
+    <item id="ch005_xhtml" href="text/ch005.xhtml" media-type="application/xhtml+xml" />
+    <item id="ch006_xhtml" href="text/ch006.xhtml" media-type="application/xhtml+xml" />
+    <item id="ch007_xhtml" href="text/ch007.xhtml" media-type="application/xhtml+xml" />
+    <item id="ch008_xhtml" href="text/ch008.xhtml" media-type="application/xhtml+xml" />
+    <item id="ch009_xhtml" href="text/ch009.xhtml" media-type="application/xhtml+xml" />
+    <item id="ch010_xhtml" href="text/ch010.xhtml" media-type="application/xhtml+xml" />
+    <item id="ch011_xhtml" href="text/ch011.xhtml" media-type="application/xhtml+xml" />
+    <item id="ch012_xhtml" href="text/ch012.xhtml" media-type="application/xhtml+xml" />
+    <item properties="cover-image" id="cover_png" href="media/cover.png" media-type="image/png" />
+    <item id="file0_jpg" href="media/file0.jpg" media-type="image/jpeg" />
+  </manifest>
+  <spine toc="ncx">
+    <itemref idref="cover_xhtml" />
+    <itemref idref="title_page_xhtml" linear="no" />
+    <itemref idref="nav" />
+    <itemref idref="ch001_xhtml" />
+    <itemref idref="ch002_xhtml" />
+    <itemref idref="ch003_xhtml" />
+    <itemref idref="ch004_xhtml" />
+    <itemref idref="ch005_xhtml" />
+    <itemref idref="ch006_xhtml" />
+    <itemref idref="ch007_xhtml" />
+    <itemref idref="ch008_xhtml" />
+    <itemref idref="ch009_xhtml" />
+    <itemref idref="ch010_xhtml" />
+    <itemref idref="ch011_xhtml" />
+    <itemref idref="ch012_xhtml" />
+  </spine>
+  <guide>
+    <reference type="toc" title="naturheilkraft" href="nav.xhtml" />
+    <reference type="cover" title="Cover" href="text/cover.xhtml" />
+  </guide>
+</package>

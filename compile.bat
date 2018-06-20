@@ -10,7 +10,7 @@ set LIST=
 for %%x in (%ChapterDir%\*.md) do set LIST=!LIST! %%x
 set LIST=%LIST:~1%
  
-pandoc.exe -o build\book.epub  %LIST% --epub-cover-image=meta\cover.png --css=meta\TomsStyle.css --epub-metadata=meta\metadata.xml --table-of-contents
+pandoc.exe -o build\book.epub  %LIST% --standalone --epub-cover-image=meta\cover.png --css=meta\TomsStyle.css --epub-metadata=meta\metadata.xml --bibliography=meta/ThisBook.bib --table-of-contents
  
 
 
